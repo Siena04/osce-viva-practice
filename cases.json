@@ -8,19 +8,22 @@
     "level": "High",
     "brief": [
       "HMR referral: Mara, 76, lives independently and wants to keep managing her own medicines. She has atrial fibrillation, hypertension and osteoarthritis.",
-      "She bought aspirin for knee pain and started an antibiotic for a chest infection three days ago.",
+      "She bought aspirin 300 mg tablets and has taken two most days this week for knee pain. She started amoxicillin/clavulanate 875/125 mg twice daily for a chest infection three days ago.",
       "She reports new bruises and one episode of blood when brushing her teeth. Her last documented INR was 2.4 two weeks ago."
     ],
     "actor": [
       "If asked, Mara says she took aspirin most days this week because it worked better than paracetamol.",
-      "She has not told the INR clinic about the antibiotic. She is unsure of its name and has the box at home.",
+      "She has not told the INR clinic about the antibiotic. The dispensing label confirms amoxicillin/clavulanate 875/125 mg twice daily; no other new medicines.",
       "She has no black stools, severe headache, fall or persistent bleeding today, but the bruising is new."
     ],
     "key": [
-      "Prioritise the possible bleeding/anticoagulation problem; assess current bleeding and urgent red flags, verify the antibiotic and arrange prompt INR/medical review as indicated.",
-      "Identify non-prescribed aspirin and assess safer pain options without making an unsupported warfarin dose change.",
-      "Check warfarin indication, target INR, adherence, monitoring process, interactions and who will contact the prescriber/INR clinic.",
-      "Give a clear contingency plan for significant bleeding or neurological symptoms and document communication."
+      "Major: New bruising and gum bleeding while taking warfarin plus self-selected aspirin 600 mg on most days. Aspirin adds antiplatelet and gastrointestinal bleeding risk even if INR is in range; the INR of 2.4 predates both changes.",
+      "Moderate: Amoxicillin/clavulanate 875/125 mg twice daily and acute infection may destabilise anticoagulation; the INR clinic has not been informed.",
+      "Minor: Knee osteoarthritis pain is not controlled with the current paracetamol 500–1000 mg as needed; the patient chose aspirin without checking interactions.",
+      "Assess bleeding now (amount, persistence, melaena, haematuria, headache, falls, dizziness). Arrange same-day GP/INR-clinic advice and repeat INR promptly; urgent emergency assessment for significant or ongoing bleeding, head injury or neurological symptoms.",
+      "Advise no further aspirin for knee pain unless a clinician confirms a separate cardiovascular indication. Do not independently change warfarin dose; send the antibiotic name, aspirin exposure, symptoms and last INR to the INR service.",
+      "Review what paracetamol dose/frequency Mara has actually used and discuss a safer pain plan, activity support and GP review if pain persists.",
+      "Confirm INR result and clinic-directed warfarin plan today; repeat as directed during and after the antibiotic course. Recheck bleeding within 24–48 hours and ensure Mara knows who to call. Document the reconciled list and handoff."
     ],
     "questions": [
       "How do you rank the MRPs and why?",
@@ -30,6 +33,7 @@
       "How would you explain the plan to Mara without alarming her unnecessarily?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -60,20 +64,64 @@
         ],
         [
           "Aspirin (self-selected)",
-          "Strength unknown; using for knee pain",
-          "Over-the-counter purchase"
+          "300 mg, 2 tablets most days this week for knee pain",
+          "Knee pain"
         ],
         [
-          "Antibiotic",
-          "Name and dose unknown; started 3 days ago",
+          "Amoxicillin/clavulanate",
+          "875/125 mg twice daily for 5 days; started 3 days ago",
           "Chest infection"
         ]
       ],
       "results": [
         [
           "INR",
-          "2.4",
-          "2 weeks ago"
+          "2.4 (usual target 2.0–3.0)",
+          "2 weeks ago, before antibiotic and aspirin"
+        ]
+      ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "New bruising and gum bleeding while taking warfarin plus self-selected aspirin 600 mg on most days. Aspirin adds antiplatelet and gastrointestinal bleeding risk even if INR is in range; the INR of 2.4 predates both changes."
+        ],
+        [
+          "Moderate",
+          "Amoxicillin/clavulanate 875/125 mg twice daily and acute infection may destabilise anticoagulation; the INR clinic has not been informed."
+        ],
+        [
+          "Minor",
+          "Knee osteoarthritis pain is not controlled with the current paracetamol 500–1000 mg as needed; the patient chose aspirin without checking interactions."
+        ]
+      ],
+      "plan": [
+        "Assess bleeding now (amount, persistence, melaena, haematuria, headache, falls, dizziness). Arrange same-day GP/INR-clinic advice and repeat INR promptly; urgent emergency assessment for significant or ongoing bleeding, head injury or neurological symptoms.",
+        "Advise no further aspirin for knee pain unless a clinician confirms a separate cardiovascular indication. Do not independently change warfarin dose; send the antibiotic name, aspirin exposure, symptoms and last INR to the INR service.",
+        "Review what paracetamol dose/frequency Mara has actually used and discuss a safer pain plan, activity support and GP review if pain persists."
+      ],
+      "monitoring": [
+        "Confirm INR result and clinic-directed warfarin plan today; repeat as directed during and after the antibiotic course. Recheck bleeding within 24–48 hours and ensure Mara knows who to call. Document the reconciled list and handoff."
+      ],
+      "answers": [
+        "Major first because active bleeding with combined warfarin/aspirin can worsen quickly; antibiotic-related INR instability is next; undertreated knee pain is lower urgency but caused self-medication.",
+        "Persistent bleeding, black stools, blood in urine, severe headache, neurological change, fall/head injury, hypotension or a high current INR would require urgent assessment.",
+        "Stop self-selected aspirin pending clinician review; check paracetamol total dose and regularity, consider non-drug knee strategies, and have the INR clinic arrange an early repeat INR.",
+        "Give GP and INR clinic the exact warfarin schedule, aspirin 600 mg exposure, amoxicillin/clavulanate 875/125 mg twice daily, bleeding history and old INR; agree who orders and acts on the new result.",
+        "Explain that the combination can raise bleeding risk, that a fresh blood test will guide the plan, and which specific bleeding symptoms warrant urgent help."
+      ],
+      "alternatives": [
+        "If aspirin is prescribed for a separate indication, do not simply stop it permanently; clarify its indication with the prescriber and balance thrombosis and bleeding risk."
+      ],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Warfarin management — Australian Prescriber",
+          "https://australianprescriber.tg.org.au/articles/how-to-manage-warfarin-therapy.html"
         ]
       ]
     }
@@ -91,15 +139,19 @@
       "Recent eGFR was 38 mL/min/1.73 m²; HbA1c 7.1%."
     ],
     "actor": [
-      "If asked, Ravi has not measured glucose during the shaky episodes.",
+      "If asked, Ravi checked one shaky episode yesterday: capillary glucose was 3.3 mmol/L before juice; he has no ketone meter.",
       "He has passed less urine today and feels light-headed on standing.",
       "He is worried that stopping any medicine, even briefly, will harm him."
     ],
     "key": [
-      "Treat dehydration and possible hypoglycaemia as immediate safety concerns; assess severity and arrange timely medical assessment.",
-      "Review sick-day management for relevant diabetes and blood-pressure medicines using current course guidance, with a specific restart/monitoring plan agreed by the treating clinician.",
-      "Check renal function, current glucose, medicine doses, adherence and the patient's ability to monitor at home.",
-      "Avoid assuming the HbA1c alone shows safe control; integrate age, symptoms, CKD and preference for simplicity."
+      "Major: Glucose 3.3 mmol/L with symptoms while taking gliclazide MR 60 mg daily and eating poorly: recurrent hypoglycaemia risk.",
+      "Major: Vomiting, reduced urine and postural light-headedness while continuing empagliflozin 10 mg, metformin 1 g twice daily and irbesartan 150 mg: dehydration, acute kidney injury and SGLT2-associated ketoacidosis risk; eGFR 38 is a month old.",
+      "Moderate: Metformin 2 g/day needs renal-dose and tolerance review at eGFR 38; a current renal result is needed before a long-term decision.",
+      "Minor: No written sick-day plan despite diabetes, CKD and multiple medicines that need review during illness.",
+      "Arrange same-day clinical assessment: capillary glucose now, hydration, ketones if indicated, current creatinine/eGFR, electrolytes and acid-base assessment if unwell. Treat current hypoglycaemia according to local protocol and confirm a repeat glucose.",
+      "Discuss a temporary sick-day hold of empagliflozin, metformin and irbesartan during significant vomiting/dehydration with the treating clinician; gliclazide MR needs urgent review while intake is poor and low glucose has occurred. Do not leave Ravi to restart medicines by guesswork.",
+      "After recovery, ask the GP/diabetes team to review metformin dose against current renal function and whether gliclazide MR 60 mg remains appropriate given hypoglycaemia and HbA1c 7.1%.",
+      "Document which medicine is held, who authorises/restarts it, glucose monitoring frequency, fluids and food intake, and repeat renal function/electrolytes. Review within 24 hours while ill; restart only when eating/drinking normally and renal status is acceptable per clinician plan. Escalate for persistent vomiting, ketones, confusion or inability to keep fluids down."
     ],
     "questions": [
       "Which problems need action today?",
@@ -109,6 +161,7 @@
       "Who will review the regimen after recovery?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -151,13 +204,79 @@
         ],
         [
           "eGFR",
-          "38 mL/min/1.73 m²",
+          "38 mL/min/1.73 m² (below ≥60 reference)",
           "1 month ago"
         ],
         [
           "Potassium",
           "4.7 mmol/L",
           "1 month ago"
+        ],
+        [
+          "Home glucose",
+          "3.3 mmol/L during one shaky episode (below 4.0)",
+          "Yesterday morning"
+        ],
+        [
+          "Home glucose",
+          "3.3 mmol/L during one shaky episode (below 4.0)",
+          "Yesterday morning"
+        ],
+        [
+          "Home glucose",
+          "3.3 mmol/L during one shaky episode (below 4.0)",
+          "Yesterday morning"
+        ],
+        [
+          "Home glucose",
+          "3.3 mmol/L during one shaky episode (below 4.0)",
+          "Yesterday morning"
+        ]
+      ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Glucose 3.3 mmol/L with symptoms while taking gliclazide MR 60 mg daily and eating poorly: recurrent hypoglycaemia risk."
+        ],
+        [
+          "Major",
+          "Vomiting, reduced urine and postural light-headedness while continuing empagliflozin 10 mg, metformin 1 g twice daily and irbesartan 150 mg: dehydration, acute kidney injury and SGLT2-associated ketoacidosis risk; eGFR 38 is a month old."
+        ],
+        [
+          "Moderate",
+          "Metformin 2 g/day needs renal-dose and tolerance review at eGFR 38; a current renal result is needed before a long-term decision."
+        ],
+        [
+          "Minor",
+          "No written sick-day plan despite diabetes, CKD and multiple medicines that need review during illness."
+        ]
+      ],
+      "plan": [
+        "Arrange same-day clinical assessment: capillary glucose now, hydration, ketones if indicated, current creatinine/eGFR, electrolytes and acid-base assessment if unwell. Treat current hypoglycaemia according to local protocol and confirm a repeat glucose.",
+        "Discuss a temporary sick-day hold of empagliflozin, metformin and irbesartan during significant vomiting/dehydration with the treating clinician; gliclazide MR needs urgent review while intake is poor and low glucose has occurred. Do not leave Ravi to restart medicines by guesswork.",
+        "After recovery, ask the GP/diabetes team to review metformin dose against current renal function and whether gliclazide MR 60 mg remains appropriate given hypoglycaemia and HbA1c 7.1%."
+      ],
+      "monitoring": [
+        "Document which medicine is held, who authorises/restarts it, glucose monitoring frequency, fluids and food intake, and repeat renal function/electrolytes. Review within 24 hours while ill; restart only when eating/drinking normally and renal status is acceptable per clinician plan. Escalate for persistent vomiting, ketones, confusion or inability to keep fluids down."
+      ],
+      "answers": [
+        "Today: symptomatic low glucose and possible dehydration/AKI. Both need prompt assessment before routine chronic therapy changes.",
+        "Obtain current glucose and ketones, renal function, potassium, BP/orthostatics, weight, intake/urine output, illness cause, full medicine use and ability to self-monitor.",
+        "CKD increases consequences of dehydration and hypoglycaemia and changes metformin suitability. A month-old eGFR cannot exclude acute decline.",
+        "Explain each temporary hold as a safety measure during poor intake; give a written medicine-by-medicine restart rule agreed with the GP, plus glucose and fluid monitoring.",
+        "The GP or diabetes team reviews acute results and long-term gliclazide/metformin; pharmacist checks understanding, medicines list and follow-up within 24–48 hours."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Sick-day medicines — Australian Prescriber",
+          "https://australianprescriber.tg.org.au/articles/medication-management-on-sick-days.html"
         ]
       ]
     }
@@ -180,10 +299,14 @@
       "She wants help finding a pain option that lets her stay active."
     ],
     "key": [
-      "Recognise possible worsening heart failure and arrange prompt clinical assessment, escalating if severe breathlessness or chest pain emerges.",
-      "Identify ibuprofen and missed diuretic doses as contributors; review pain management and adherence barriers with the patient.",
-      "Request renal function, electrolytes, BP and weight trend before recommending regimen changes.",
-      "Agree a feasible monitoring and access plan with GP/cardiology and the patient."
+      "Major: Possible decompensated heart failure: new orthopnoea, ankle oedema, 2.5 kg weight gain and exertional breathlessness.",
+      "Moderate: Ibuprofen 400 mg up to three times daily for a week can worsen fluid retention, BP and renal function in heart failure, especially with perindopril 5 mg and furosemide 40 mg.",
+      "Moderate: Furosemide 40 mg morning doses are skipped on days out; this may contribute to fluid overload.",
+      "Minor: Home BP averaging 156/88 mmHg and back pain need review after the acute congestion is addressed.",
+      "Arrange same-day GP/heart-failure assessment for volume status and diuretic plan; emergency assessment if breathless at rest, chest pain, syncope or severe hypoxia.",
+      "Ask Elaine to stop self-selected ibuprofen and confirm no other NSAID. Discuss a clinician-approved alternative pain plan and non-drug back-pain strategies.",
+      "Do not independently increase furosemide. Explore timed dosing, toilet access and a written action plan with GP/cardiology so outings do not mean missed doses.",
+      "Check current creatinine/eGFR, potassium, sodium, pulse, BP, oxygenation if available, weight trend and oedema. Daily morning weight and symptom diary; GP reviews treatment response within 24–48 hours and labs after any diuretic/ACE inhibitor adjustment."
     ],
     "questions": [
       "What are your top three MRPs?",
@@ -193,6 +316,7 @@
       "How would you compare pain options in this patient?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -237,6 +361,72 @@
           "Weight",
           "+2.5 kg above usual",
           "This week"
+        ],
+        [
+          "Creatinine / eGFR / potassium",
+          "Not supplied (request current results)",
+          "—"
+        ],
+        [
+          "Creatinine / eGFR / potassium",
+          "Not supplied (request current results)",
+          "—"
+        ],
+        [
+          "Creatinine / eGFR / potassium",
+          "Not supplied (request current results)",
+          "—"
+        ],
+        [
+          "Creatinine / eGFR / potassium",
+          "Not supplied (request current results)",
+          "—"
+        ]
+      ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Possible decompensated heart failure: new orthopnoea, ankle oedema, 2.5 kg weight gain and exertional breathlessness."
+        ],
+        [
+          "Moderate",
+          "Ibuprofen 400 mg up to three times daily for a week can worsen fluid retention, BP and renal function in heart failure, especially with perindopril 5 mg and furosemide 40 mg."
+        ],
+        [
+          "Moderate",
+          "Furosemide 40 mg morning doses are skipped on days out; this may contribute to fluid overload."
+        ],
+        [
+          "Minor",
+          "Home BP averaging 156/88 mmHg and back pain need review after the acute congestion is addressed."
+        ]
+      ],
+      "plan": [
+        "Arrange same-day GP/heart-failure assessment for volume status and diuretic plan; emergency assessment if breathless at rest, chest pain, syncope or severe hypoxia.",
+        "Ask Elaine to stop self-selected ibuprofen and confirm no other NSAID. Discuss a clinician-approved alternative pain plan and non-drug back-pain strategies.",
+        "Do not independently increase furosemide. Explore timed dosing, toilet access and a written action plan with GP/cardiology so outings do not mean missed doses."
+      ],
+      "monitoring": [
+        "Check current creatinine/eGFR, potassium, sodium, pulse, BP, oxygenation if available, weight trend and oedema. Daily morning weight and symptom diary; GP reviews treatment response within 24–48 hours and labs after any diuretic/ACE inhibitor adjustment."
+      ],
+      "answers": [
+        "Worsening heart failure, ibuprofen exposure, then missed furosemide are the key linked issues; BP and pain are secondary today.",
+        "Breathlessness at rest, chest pain, syncope, confusion, marked hypoxia or rapidly worsening swelling requires emergency care.",
+        "Ask about days out and toilet access; agree a practical dosing time and written plan with the prescriber, without doubling missed doses.",
+        "Current renal function/electrolytes, BP, pulse, weight and symptom trend are needed before and after any regimen change.",
+        "Oral NSAIDs worsen fluid retention and renal risk. Seek GP-approved analgesia and activity/physiotherapy support matched to function and renal status."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Heart medicines and NSAIDs — Heart Foundation",
+          "https://www.heartfoundation.org.au/your-heart/support/heart-medicines-faq"
         ]
       ]
     }
@@ -249,7 +439,7 @@
     "topic": "Endocrine",
     "level": "Medium",
     "brief": [
-      "HMR referral: Zoe, 58, has hypothyroidism, iron-deficiency anaemia and reflux. She reports fatigue and has recently been told her TSH is above her laboratory's reference range.",
+      "HMR referral: Zoe, 58, has hypothyroidism, iron-deficiency anaemia and reflux. She reports fatigue. Her TSH was 9.8 mIU/L (local range 0.4–4.0) last week.",
       "She takes all tablets together with breakfast to avoid forgetting them.",
       "The GP referral asks for review of her thyroid treatment."
     ],
@@ -259,10 +449,14 @@
       "She has no severe acute symptoms."
     ],
     "key": [
-      "Investigate timing, adherence, recent changes and interacting products before recommending a dose change.",
-      "Ask for actual thyroid results, prior trend and the clinical indication/target; seek GP review and repeat testing after a consistent administration plan per current guidance.",
-      "Make the regimen workable for Zoe and explain why separation/consistency matters without prescribing a new dose independently.",
-      "Assess fatigue more broadly, including anaemia and other causes."
+      "Major: Levothyroxine 100 micrograms is taken with breakfast and ferrous sulfate 325 mg, and sometimes calcium carbonate 600 mg. Iron/calcium reduce absorption; TSH 9.8 mIU/L is above the local range.",
+      "Moderate: Missed weekend levothyroxine doses make the apparent treatment failure harder to interpret; raising the dose first could overshoot once administration improves.",
+      "Moderate: Iron-deficiency anaemia remains a plausible separate cause of fatigue: Hb 108 g/L and ferritin 12 micrograms/L were low six weeks ago.",
+      "Minor: Pantoprazole 40 mg may add to absorption complexity; confirm need, duration and administration rather than stopping it abruptly.",
+      "Keep the prescribed levothyroxine dose initially and agree a consistent fasting schedule: 100 micrograms with water 30–60 minutes before breakfast; separate iron and calcium by at least four hours. If mornings are unworkable, discuss a consistent bedtime empty-stomach schedule with the GP.",
+      "Move ferrous sulfate 325 mg to a later time that Zoe can reliably follow. Use a simple written timetable and weekend reminder. Do not recommend a new thyroxine dose based on one result while administration is inconsistent.",
+      "Ask GP to review anaemia cause and response to iron and whether pantoprazole 40 mg remains indicated.",
+      "Repeat TSH (and free T4 if GP requests) about 6 weeks after stable administration; review fatigue, adherence, Hb/ferritin and iron tolerance. GP adjusts levothyroxine only after trend and actual use are clear."
     ],
     "questions": [
       "What is the likely medication-related problem?",
@@ -272,6 +466,7 @@
       "How would you monitor whether the change helped?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -304,18 +499,64 @@
       "results": [
         [
           "TSH",
-          "Above local reference range; value not supplied",
-          "Recent GP test"
+          "9.8 mIU/L (local reference 0.4–4.0)",
+          "1 week ago"
         ],
         [
           "Haemoglobin",
-          "108 g/L",
+          "108 g/L (reference 115–165)",
           "6 weeks ago"
         ],
         [
           "Ferritin",
-          "12 micrograms/L",
+          "12 micrograms/L (reference 15–150)",
           "6 weeks ago"
+        ]
+      ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Levothyroxine 100 micrograms is taken with breakfast and ferrous sulfate 325 mg, and sometimes calcium carbonate 600 mg. Iron/calcium reduce absorption; TSH 9.8 mIU/L is above the local range."
+        ],
+        [
+          "Moderate",
+          "Missed weekend levothyroxine doses make the apparent treatment failure harder to interpret; raising the dose first could overshoot once administration improves."
+        ],
+        [
+          "Moderate",
+          "Iron-deficiency anaemia remains a plausible separate cause of fatigue: Hb 108 g/L and ferritin 12 micrograms/L were low six weeks ago."
+        ],
+        [
+          "Minor",
+          "Pantoprazole 40 mg may add to absorption complexity; confirm need, duration and administration rather than stopping it abruptly."
+        ]
+      ],
+      "plan": [
+        "Keep the prescribed levothyroxine dose initially and agree a consistent fasting schedule: 100 micrograms with water 30–60 minutes before breakfast; separate iron and calcium by at least four hours. If mornings are unworkable, discuss a consistent bedtime empty-stomach schedule with the GP.",
+        "Move ferrous sulfate 325 mg to a later time that Zoe can reliably follow. Use a simple written timetable and weekend reminder. Do not recommend a new thyroxine dose based on one result while administration is inconsistent.",
+        "Ask GP to review anaemia cause and response to iron and whether pantoprazole 40 mg remains indicated."
+      ],
+      "monitoring": [
+        "Repeat TSH (and free T4 if GP requests) about 6 weeks after stable administration; review fatigue, adherence, Hb/ferritin and iron tolerance. GP adjusts levothyroxine only after trend and actual use are clear."
+      ],
+      "answers": [
+        "Likely reduced/variable thyroxine absorption from iron, calcium and food plus missed doses, supported by high TSH; anaemia also contributes to fatigue.",
+        "Check previous TSH/free T4, levothyroxine brand and timing, missed doses, iron/calcium frequency, pregnancy status if relevant, symptoms, and anaemia investigation.",
+        "Optimise timing and adherence first; keep 100 micrograms pending GP review, and avoid an automatic dose increase.",
+        "Use one doable schedule: thyroxine before breakfast with water, iron later and calcium at least four hours away; set a weekend alarm.",
+        "Repeat thyroid tests after about six weeks of consistent use and review symptoms and anaemia; GP then decides if dose change is needed."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Thyroxine administration — Australian Prescriber",
+          "https://australianprescriber.tg.org.au/articles/taking-care-of-thyroxine.html"
         ]
       ]
     }
@@ -338,10 +579,14 @@
       "She denies immediate self-harm intent but says some days feel hopeless; a fuller risk assessment is needed."
     ],
     "key": [
-      "Assess immediate mental-health safety and falls risk, including sedation, orthostasis and environmental factors.",
-      "Review cumulative sedative/anticholinergic burden and possible medicine-related falls; avoid abrupt benzodiazepine cessation.",
-      "Clarify antidepressant duration, adherence, response, function and preferences before considering a change with GP.",
-      "Propose a collaborative, staged plan with monitoring, supports and follow-up."
+      "Major: Two falls with morning sedation and postural dizziness while taking diazepam 5 mg most nights, oxybutynin 5 mg twice daily and intermittent paracetamol/codeine. Cumulative sedative and anticholinergic load threatens safety.",
+      "Major: Low mood and hopelessness need a direct suicide/self-harm and functioning assessment; current denial of immediate intent does not complete the assessment.",
+      "Moderate: Sertraline 50 mg efficacy cannot be judged until start date, regular use, duration, response and adverse effects are known.",
+      "Minor: Possible orthostatic contribution from amlodipine 5 mg; a seated BP of 128/72 two weeks ago does not rule out standing hypotension.",
+      "Assess immediate injury and mental-health safety today; arrange urgent mental-health assessment if intent, plan or inability to stay safe emerges.",
+      "With Nola and GP, prioritise a gradual diazepam taper from the actual nightly 5 mg use; do not stop abruptly. Review whether oxybutynin 5 mg twice daily still helps and whether a lower-anticholinergic bladder approach is possible; verify exact paracetamol/codeine product and use.",
+      "Check sertraline duration/adherence and ask GP to reassess depression, grief and sleep after adequate trial; discuss psychological support and falls-prevention/physiotherapy.",
+      "Check lying/standing BP, falls diary, alertness, cognition, sleep, mood and urinary symptoms. GP/pharmacist review within 1–2 weeks and at each taper step; involve daughter with consent and confirm medicine organiser matches the plan."
     ],
     "questions": [
       "Which issue is most urgent?",
@@ -351,6 +596,7 @@
       "Which other professionals or supports would you involve?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -392,6 +638,52 @@
           "GP referral, 2 weeks ago"
         ]
       ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Two falls with morning sedation and postural dizziness while taking diazepam 5 mg most nights, oxybutynin 5 mg twice daily and intermittent paracetamol/codeine. Cumulative sedative and anticholinergic load threatens safety."
+        ],
+        [
+          "Major",
+          "Low mood and hopelessness need a direct suicide/self-harm and functioning assessment; current denial of immediate intent does not complete the assessment."
+        ],
+        [
+          "Moderate",
+          "Sertraline 50 mg efficacy cannot be judged until start date, regular use, duration, response and adverse effects are known."
+        ],
+        [
+          "Minor",
+          "Possible orthostatic contribution from amlodipine 5 mg; a seated BP of 128/72 two weeks ago does not rule out standing hypotension."
+        ]
+      ],
+      "plan": [
+        "Assess immediate injury and mental-health safety today; arrange urgent mental-health assessment if intent, plan or inability to stay safe emerges.",
+        "With Nola and GP, prioritise a gradual diazepam taper from the actual nightly 5 mg use; do not stop abruptly. Review whether oxybutynin 5 mg twice daily still helps and whether a lower-anticholinergic bladder approach is possible; verify exact paracetamol/codeine product and use.",
+        "Check sertraline duration/adherence and ask GP to reassess depression, grief and sleep after adequate trial; discuss psychological support and falls-prevention/physiotherapy."
+      ],
+      "monitoring": [
+        "Check lying/standing BP, falls diary, alertness, cognition, sleep, mood and urinary symptoms. GP/pharmacist review within 1–2 weeks and at each taper step; involve daughter with consent and confirm medicine organiser matches the plan."
+      ],
+      "answers": [
+        "First assess immediate safety after falls and hopelessness; then reduce medicine-related fall risk.",
+        "Ask directly about self-harm thoughts, intent, plan, protective supports and function; check sertraline start/adherence and response over time.",
+        "Diazepam 5 mg, oxybutynin 5 mg twice daily and codeine are strongest candidates; amlodipine may contribute if standing BP falls.",
+        "Agree a slow GP-supervised taper, one change at a time, with sleep support and monitoring for withdrawal/rebound symptoms.",
+        "GP/mental-health clinician for mood and taper; physiotherapist/falls service for balance; daughter only with Nola’s consent; pharmacist for medicine reconciliation and follow-up."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Deprescribing in older people — Australian Prescriber",
+          "https://australianprescriber.tg.org.au/articles/deprescribing-in-older-people.html"
+        ]
+      ]
     }
   },
   {
@@ -412,10 +704,13 @@
       "He wants a plan that fits a rotating shift schedule."
     ],
     "key": [
-      "Recognise poor control and assess current symptoms for urgent deterioration.",
-      "Check inhaler technique, actual use, device suitability, adherence barriers, triggers and rhinitis control before suggesting escalation.",
-      "Arrange prescriber review of controller regimen and a written action plan; counsel on monitoring and urgent warning signs.",
-      "Adapt the plan to shift work and patient preferences."
+      "Major: Poor asthma control: salbutamol needed most days and night waking twice weekly; risk of future exacerbation.",
+      "Moderate: Budesonide/formoterol 200/6 prescribed one inhalation twice daily has irregular refills; the preventer is often skipped because of taste and uncertainty about need.",
+      "Moderate: No written action plan; new dust exposure and intermittent fluticasone nasal spray use may contribute to uncontrolled airways symptoms.",
+      "Assess current severity now: speech, work of breathing, reliever response, peak flow if available; urgent care for severe breathlessness or poor response.",
+      "Observe inhaler technique with the exact device; check remaining doses, adherence and mouth-rinsing. Explain purpose of the prescribed budesonide/formoterol 200/6 regimen and develop reminders compatible with shifts. Do not increase it solely from refill history.",
+      "Arrange GP/asthma clinician review of control, regimen and written action plan; address workplace dust exposure and regular rhinitis treatment technique if indicated.",
+      "Track daytime symptoms, night waking, reliever use and peak flow if part of the action plan. Review technique/adherence within 1–2 weeks and reassess control after a consistent treatment trial; seek immediate help for inability to speak, cyanosis or worsening despite reliever."
     ],
     "questions": [
       "What indicates poor control?",
@@ -425,6 +720,7 @@
       "What symptoms require immediate escalation?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -461,6 +757,48 @@
           "Patient report"
         ]
       ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Poor asthma control: salbutamol needed most days and night waking twice weekly; risk of future exacerbation."
+        ],
+        [
+          "Moderate",
+          "Budesonide/formoterol 200/6 prescribed one inhalation twice daily has irregular refills; the preventer is often skipped because of taste and uncertainty about need."
+        ],
+        [
+          "Moderate",
+          "No written action plan; new dust exposure and intermittent fluticasone nasal spray use may contribute to uncontrolled airways symptoms."
+        ]
+      ],
+      "plan": [
+        "Assess current severity now: speech, work of breathing, reliever response, peak flow if available; urgent care for severe breathlessness or poor response.",
+        "Observe inhaler technique with the exact device; check remaining doses, adherence and mouth-rinsing. Explain purpose of the prescribed budesonide/formoterol 200/6 regimen and develop reminders compatible with shifts. Do not increase it solely from refill history.",
+        "Arrange GP/asthma clinician review of control, regimen and written action plan; address workplace dust exposure and regular rhinitis treatment technique if indicated."
+      ],
+      "monitoring": [
+        "Track daytime symptoms, night waking, reliever use and peak flow if part of the action plan. Review technique/adherence within 1–2 weeks and reassess control after a consistent treatment trial; seek immediate help for inability to speak, cyanosis or worsening despite reliever."
+      ],
+      "answers": [
+        "Most-day reliever and twice-weekly night waking indicate poor control and future exacerbation risk.",
+        "Check actual preventer use, device technique, reliever frequency, triggers, work exposure, rhinitis, smoking and acute severity before stepping up.",
+        "Ask James to demonstrate each step, then correct errors and have him repeat the demonstration; check device-specific instructions.",
+        "GP review and a written action plan; pharmacist technique/adherence review in 1–2 weeks, then control reassessment after consistent use.",
+        "Severe breathlessness, difficulty speaking, blue lips, drowsiness or reliever not working requires emergency escalation."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Asthma review checklist — Asthma Australia",
+          "https://asthma.org.au/review-checklist/"
+        ]
+      ]
     }
   },
   {
@@ -471,20 +809,24 @@
     "topic": "Pain",
     "level": "High",
     "brief": [
-      "HMR referral: Tomas, 67, has knee osteoarthritis, compensated chronic liver disease, CKD and a history of peptic ulcer disease. Pain is limiting his walks.",
-      "He takes paracetamol from two different products and naproxen bought at a supermarket. He drinks alcohol on some weekends and cannot recall the daily amounts of his pain medicines.",
-      "The GP requests a pain management review."
+      "HMR referral: Tomas, 67, has knee osteoarthritis, chronic liver disease, CKD and prior peptic ulcer disease. Pain is limiting his walks.",
+      "For three weeks he has taken paracetamol modified-release 665 mg, two tablets three times daily, plus Panadol 500 mg immediate-release, two tablets at bedtime. He also bought naproxen 250 mg and takes one tablet twice daily.",
+      "He drinks 2–3 glasses of wine on some weekends and has new right upper abdominal discomfort. The GP requests a pain and medicine safety review."
     ],
     "actor": [
-      "If asked, Tomas often takes both paracetamol products on the same day without adding their doses.",
-      "He values walking to the shops and is open to non-medicine strategies.",
-      "No current gastrointestinal bleeding symptoms are reported, but these must be checked."
+      "If asked, the Panadol label reads paracetamol 500 mg per tablet and he takes two at bedtime as well as all six modified-release tablets.",
+      "He takes naproxen 250 mg with breakfast and dinner and values walking to the shops.",
+      "He has right upper abdominal discomfort but denies vomiting blood or black stools today; ask about jaundice, confusion, alcohol intake and total use."
     ],
     "key": [
-      "Reconcile all products and total daily exposure before making a dosing recommendation.",
-      "Identify NSAID-related renal, gastrointestinal and cardiovascular concerns and assess bleeding/alarm symptoms.",
-      "Set function-based goals and consider non-drug support plus patient-specific medicine options with the GP, verified against current AMH/eTG and labs.",
-      "Plan monitoring and a clear follow-up rather than offering a generic analgesic switch."
+      "Major: Total paracetamol is 4,990 mg/day: modified release 665 mg × 2 × 3 = 3,990 mg plus Panadol paracetamol 500 mg × 2 = 1,000 mg. This exceeds the usual adult 4 g/day maximum in a patient with liver disease, abdominal symptoms and ALT 132 U/L (ref 5–40).",
+      "Major: Naproxen 250 mg twice daily for 3 weeks with CKD (eGFR 44), prior ulcer and irbesartan 150 mg increases AKI and GI bleeding risk; Hb 118 g/L is below range.",
+      "Moderate: Knee pain remains function-limiting despite high-risk self-treatment; no function-based goal or non-drug plan.",
+      "Minor: Weekend alcohol and unrecognised paracetamol duplication increase the risk of repeat exposure.",
+      "Arrange same-day GP/urgent assessment for repeated supratherapeutic paracetamol use, abdominal discomfort and abnormal liver tests; call Poisons Information Centre 13 11 26 for case-specific advice if ongoing/uncertain exposure. Do not wait for symptoms to worsen.",
+      "Stop the additional Panadol immediate-release tablets and self-selected naproxen while obtaining clinical advice; record exact products, amounts and timing. The GP should decide a safe future paracetamol limit and analgesic plan in light of liver/renal disease.",
+      "Discuss knee exercise/physiotherapy, weight/load modification and pain/function goals; avoid a generic opioid substitution.",
+      "Same-day clinical review of liver panel, INR/synthetic function if ordered, renal function, blood count and bleeding symptoms; follow trend as directed. Confirm one written analgesic list and review pain/function within 1–2 weeks after a safer plan is agreed."
     ],
     "questions": [
       "Which risks make this case different from routine osteoarthritis?",
@@ -494,6 +836,7 @@
       "What would you communicate to the GP?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -504,17 +847,17 @@
       "medications": [
         [
           "Paracetamol modified release",
-          "665 mg; prescribed 2 tablets three times daily",
+          "665 mg, 2 tablets three times daily",
           "Knee pain"
         ],
         [
-          "Cold-and-flu product",
-          "Contains paracetamol; strength and use unknown",
-          "Self-selected"
+          "Panadol immediate release (self-selected)",
+          "500 mg, 2 tablets at bedtime",
+          "Extra knee-pain relief"
         ],
         [
           "Naproxen (self-selected)",
-          "Strength and frequency unknown",
+          "250 mg twice daily for 3 weeks",
           "Knee pain"
         ],
         [
@@ -530,14 +873,80 @@
       ],
       "results": [
         [
-          "eGFR",
-          "44 mL/min/1.73 m²",
-          "6 months ago"
+          "ALT",
+          "132 U/L (reference 5–40)",
+          "5 days ago"
         ],
         [
-          "ALT",
-          "48 U/L",
-          "6 months ago"
+          "AST",
+          "98 U/L (reference 10–40)",
+          "5 days ago"
+        ],
+        [
+          "Albumin",
+          "31 g/L (reference 35–50)",
+          "5 days ago"
+        ],
+        [
+          "Platelets",
+          "128 ×10⁹/L (reference 150–400)",
+          "5 days ago"
+        ],
+        [
+          "eGFR",
+          "44 mL/min/1.73 m² (reference ≥60)",
+          "5 days ago"
+        ],
+        [
+          "Haemoglobin",
+          "118 g/L (reference 130–180)",
+          "5 days ago"
+        ]
+      ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Total paracetamol is 4,990 mg/day: modified release 665 mg × 2 × 3 = 3,990 mg plus Panadol paracetamol 500 mg × 2 = 1,000 mg. This exceeds the usual adult 4 g/day maximum in a patient with liver disease, abdominal symptoms and ALT 132 U/L (ref 5–40)."
+        ],
+        [
+          "Major",
+          "Naproxen 250 mg twice daily for 3 weeks with CKD (eGFR 44), prior ulcer and irbesartan 150 mg increases AKI and GI bleeding risk; Hb 118 g/L is below range."
+        ],
+        [
+          "Moderate",
+          "Knee pain remains function-limiting despite high-risk self-treatment; no function-based goal or non-drug plan."
+        ],
+        [
+          "Minor",
+          "Weekend alcohol and unrecognised paracetamol duplication increase the risk of repeat exposure."
+        ]
+      ],
+      "plan": [
+        "Arrange same-day GP/urgent assessment for repeated supratherapeutic paracetamol use, abdominal discomfort and abnormal liver tests; call Poisons Information Centre 13 11 26 for case-specific advice if ongoing/uncertain exposure. Do not wait for symptoms to worsen.",
+        "Stop the additional Panadol immediate-release tablets and self-selected naproxen while obtaining clinical advice; record exact products, amounts and timing. The GP should decide a safe future paracetamol limit and analgesic plan in light of liver/renal disease.",
+        "Discuss knee exercise/physiotherapy, weight/load modification and pain/function goals; avoid a generic opioid substitution."
+      ],
+      "monitoring": [
+        "Same-day clinical review of liver panel, INR/synthetic function if ordered, renal function, blood count and bleeding symptoms; follow trend as directed. Confirm one written analgesic list and review pain/function within 1–2 weeks after a safer plan is agreed."
+      ],
+      "answers": [
+        "This is not routine OA: 4,990 mg/day paracetamol, abnormal liver markers, eGFR 44, prior ulcer and NSAID plus ARB exposure.",
+        "Ask for every ingredient and strength, number of tablets per dose/day, timing, duration, alcohol and any other combination products; then calculate total milligrams.",
+        "Record walking distance, daily activity and pain relief versus adverse effects before/after any change.",
+        "Physiotherapy, graded exercise, weight/load strategies and supportive aids, agreed around his goal of walking to shops.",
+        "Communicate 4,990 mg/day paracetamol calculation, naproxen 250 mg twice daily, symptoms, ALT/AST/albumin/platelets/eGFR/Hb, and request urgent safety assessment plus a single written plan."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Recommended paracetamol doses — TGA",
+          "https://www.tga.gov.au/news/news-articles/recommended-paracetamol-doses"
         ]
       ]
     }
@@ -560,10 +969,14 @@
       "Her preferred pharmacy can repack the medicines once the list is confirmed."
     ],
     "key": [
-      "Prioritise urgent reconciliation and assess symptoms/vitals; do not assume the old pack or discharge list alone is correct.",
-      "Identify potential duplication and omission, especially antiplatelet and statin regimen, and verify with discharge team/GP/pharmacy.",
-      "Create one confirmed current list, organise pack changes and teach Leila how to use it.",
-      "Monitor BP, pulse, bleeding and adverse effects with clear responsibilities and contingency advice."
+      "Major: Leila is taking simvastatin 40 mg from the old pack plus discharge atorvastatin 80 mg nightly: unintended duplicate statin exposure and adverse-effect risk.",
+      "Major: Taking from both the old pack and new boxes after ACS creates possible omissions or duplicate doses of aspirin 100 mg, clopidogrel 75 mg and metoprolol MR 47.5 mg; exact intake must be verified today.",
+      "Moderate: Light-headedness may relate to continued amlodipine 10 mg plus new metoprolol; discharge BP 118/68 and pulse 64 are five days old.",
+      "Minor: Metformin 500 mg twice daily is on the pre-admission list but not confirmed on discharge; diabetes plan and pack need reconciliation.",
+      "Ask Leila to bring all boxes, old pack and discharge list today; obtain actual dose history and current BP/pulse. Contact discharge team/GP and community pharmacy for the intended signed list; do not infer that an omitted medicine should be stopped or restarted.",
+      "Hold use of the unverified old pack while a safe interim supply is arranged with the prescriber/pharmacy. Remove simvastatin from the new pack if the discharge regimen confirms atorvastatin 80 mg. Ensure aspirin 100 mg and clopidogrel 75 mg are not inadvertently missed; do not change antiplatelets without cardiology advice.",
+      "Create one dated list, repack only after confirmation, use teach-back and involve a supporter with Leila’s consent.",
+      "Same-day confirmation of what she actually took, BP/pulse and symptoms; urgent help for chest pain, syncope, severe bleeding or shortness of breath. Recheck new pack against the confirmed list and follow up in 24–48 hours; monitor muscle pain/dark urine, bleeding, BP and pulse."
     ],
     "questions": [
       "How do you verify the intended regimen?",
@@ -573,6 +986,7 @@
       "How will you confirm the problem is resolved?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Australian Government, Guiding Principles for Medication Management in the Community",
       "Course AMH/eTG and Viva rubric"
     ],
@@ -602,14 +1016,14 @@
           "Cardiac therapy"
         ],
         [
-          "Amlodipine",
-          "10 mg daily in old weekly pack; current status unclear",
-          "Previous hypertension therapy"
+          "Amlodipine (old pack)",
+          "10 mg each morning; old pack still being taken",
+          "Prior BP therapy; discharge status unclear"
         ],
         [
-          "Simvastatin",
-          "40 mg nightly in old weekly pack; current status unclear",
-          "Previous lipid therapy"
+          "Simvastatin (old pack)",
+          "40 mg nightly; taken alongside atorvastatin",
+          "Prior lipid therapy"
         ],
         [
           "Metformin",
@@ -634,6 +1048,52 @@
           "5 days ago"
         ]
       ]
+    },
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Leila is taking simvastatin 40 mg from the old pack plus discharge atorvastatin 80 mg nightly: unintended duplicate statin exposure and adverse-effect risk."
+        ],
+        [
+          "Major",
+          "Taking from both the old pack and new boxes after ACS creates possible omissions or duplicate doses of aspirin 100 mg, clopidogrel 75 mg and metoprolol MR 47.5 mg; exact intake must be verified today."
+        ],
+        [
+          "Moderate",
+          "Light-headedness may relate to continued amlodipine 10 mg plus new metoprolol; discharge BP 118/68 and pulse 64 are five days old."
+        ],
+        [
+          "Minor",
+          "Metformin 500 mg twice daily is on the pre-admission list but not confirmed on discharge; diabetes plan and pack need reconciliation."
+        ]
+      ],
+      "plan": [
+        "Ask Leila to bring all boxes, old pack and discharge list today; obtain actual dose history and current BP/pulse. Contact discharge team/GP and community pharmacy for the intended signed list; do not infer that an omitted medicine should be stopped or restarted.",
+        "Hold use of the unverified old pack while a safe interim supply is arranged with the prescriber/pharmacy. Remove simvastatin from the new pack if the discharge regimen confirms atorvastatin 80 mg. Ensure aspirin 100 mg and clopidogrel 75 mg are not inadvertently missed; do not change antiplatelets without cardiology advice.",
+        "Create one dated list, repack only after confirmation, use teach-back and involve a supporter with Leila’s consent."
+      ],
+      "monitoring": [
+        "Same-day confirmation of what she actually took, BP/pulse and symptoms; urgent help for chest pain, syncope, severe bleeding or shortness of breath. Recheck new pack against the confirmed list and follow up in 24–48 hours; monitor muscle pain/dark urine, bleeding, BP and pulse."
+      ],
+      "answers": [
+        "Compare discharge summary, inpatient changes, GP record, dispensing history, old pack and patient report; resolve each discrepancy with the responsible prescriber.",
+        "Duplicate statin and any missed/extra antiplatelet or beta-blocker doses are highest priority; light-headedness and metformin status follow.",
+        "Do not keep dosing from the old pack. Quarantine it while pharmacy and prescriber provide a confirmed interim plan and new pack.",
+        "Explain aspirin/clopidogrel purpose, missed-dose/bleeding concerns and when to seek urgent help; confirm duration with discharge team/cardiology.",
+        "Phone-back and repeat-back of the final list, physical pack check, patient teach-back and 24–48-hour symptom review."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/viva-rubric-2026.pdf"
+        ],
+        [
+          "Medication reconciliation — Australian Prescriber",
+          "https://australianprescriber.tg.org.au/articles/the-importance-of-medication-reconciliation-for-patients-and-practitioners.html"
+        ]
+      ]
     }
   },
   {
@@ -644,27 +1104,68 @@
     "topic": "Skin / extended scope",
     "level": "Medium",
     "brief": [
-      "You are the pharmacist. A parent asks for something for their 6-year-old child's yellow-crusted sores around the nose. The child is at school and is not present.",
-      "Manage the presentation, including whether it can be handled in your setting and what the parent should do next."
+      "Sarah asks for treatment for yellow crusted sores around the mouth and nose of her son Hugo, 6 years old (22 kg). He is at school and she has a phone photo.",
+      "She wants to know whether she can obtain treatment here and whether Hugo can attend school tomorrow."
     ],
     "actor": [
-      "Child weighs about 21 kg; parent can confirm exact weight. Lesions began four days ago and have spread from one to several spots.",
-      "No fever, lethargy or rapidly spreading redness. No known medicine allergies; no regular medicines or chronic conditions.",
-      "A sibling has a similar lesion. Parent is worried about school attendance and wants antibiotics immediately."
+      "Hugo has four small sores around the mouth/nose, beginning as blisters four days ago; a younger sibling now has one similar sore. The mother can show a photo.",
+      "No fever, lethargy, rapidly spreading redness or chronic illness. No regular medicines; children’s paracetamol was used for a recent cold. No known medicine allergy.",
+      "If asked about ARF risk: Hugo and Sarah are Aboriginal and live in suburban Brisbane; no personal/family ARF or rheumatic heart disease, crowding or recent endemic-community residence. She is happy to bring Hugo in for examination."
     ],
     "key": [
-      "Confirm who the patient is, age/weight, history, medicines, conditions and allergy/adverse effects.",
-      "Assess distribution, severity, systemic signs, alternatives and eligibility/referral criteria in the current Queensland Health impetigo guideline.",
-      "Discuss appropriate hygiene, spread prevention, treatment or referral according to scope, and school/daycare advice from current local guidance.",
-      "Give a clear beneficial outcome, review point and safety net if fever, worsening redness or poor response."
+      "Major: Possible impetigo in a child who is absent: diagnosis, lesion count and severity require assessment before a prescribing decision. Four sores and a second affected household member change treatment and infection-control planning.",
+      "Moderate: Spread to a sibling and school contacts; assess each affected person and ARF risk rather than assuming ethnicity alone determines referral.",
+      "Invite Sarah to bring Hugo for assessment today; confirm photo findings with lesion count, age/weight, allergies, medicines, systemic symptoms, residence/ARF risk and coexisting skin disease. If pharmacist-prescriber eligibility is met, the Queensland guide permits oral treatment for localised >2 sores; select the actual agent and dose from the provided eTG/AMH after checking weight and allergies. Refer if extensive, severe, ulcerating, recurrent, high ARF risk or uncertain diagnosis.",
+      "Explain gentle cleansing, hand hygiene, short nails, covering lesions where practical and avoiding shared towels. Assess the sibling and give current local school-exclusion advice.",
+      "Set a clear review after treatment starts; seek earlier care for fever, spreading redness, swelling, systemic illness or no improvement. Record treatment, family advice and referral pathway."
     ],
     "questions": [
       "What would make this presentation outside scope?",
       "How would you discuss antibiotic stewardship with the parent?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: impetigo (supplied PDF p. 97)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Possible impetigo in a child who is absent: diagnosis, lesion count and severity require assessment before a prescribing decision. Four sores and a second affected household member change treatment and infection-control planning."
+        ],
+        [
+          "Moderate",
+          "Spread to a sibling and school contacts; assess each affected person and ARF risk rather than assuming ethnicity alone determines referral."
+        ]
+      ],
+      "plan": [
+        "Invite Sarah to bring Hugo for assessment today; confirm photo findings with lesion count, age/weight, allergies, medicines, systemic symptoms, residence/ARF risk and coexisting skin disease. If pharmacist-prescriber eligibility is met, the Queensland guide permits oral treatment for localised >2 sores; select the actual agent and dose from the provided eTG/AMH after checking weight and allergies. Refer if extensive, severe, ulcerating, recurrent, high ARF risk or uncertain diagnosis.",
+        "Explain gentle cleansing, hand hygiene, short nails, covering lesions where practical and avoiding shared towels. Assess the sibling and give current local school-exclusion advice."
+      ],
+      "monitoring": [
+        "Set a clear review after treatment starts; seek earlier care for fever, spreading redness, swelling, systemic illness or no improvement. Record treatment, family advice and referral pathway."
+      ],
+      "answers": [
+        "Extensive/bullous/ulcerated lesions, systemic illness, immunosuppression, high ARF risk, uncertain diagnosis or poor response require referral.",
+        "Explain that several sores and household spread warrant proper assessment; treatment should match the guideline and lesion burden rather than a blanket antibiotic request."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O02",
@@ -674,7 +1175,7 @@
     "topic": "Skin / extended scope",
     "level": "High",
     "brief": [
-      "A 62-year-old asks for a cream for a painful blistering rash on one side of the forehead. They say it started yesterday.",
+      "Daniel, 62, asks for aciclovir cream for a painful blistering rash on the right forehead that began yesterday.",
       "Manage the request in a 10-minute pharmacy consultation."
     ],
     "actor": [
@@ -683,18 +1184,59 @@
       "They hope to avoid a doctor because of work commitments."
     ],
     "key": [
-      "Identify possible ocular involvement and arrange urgent medical/eye assessment rather than routine pharmacy treatment.",
-      "Clarify onset, rash distribution, eye/neurological symptoms, immune status, pregnancy, medicines and allergies.",
-      "Explain the urgency in patient-centred terms and help them access care now.",
-      "Counsel on avoiding contact with vulnerable people and give a contingency plan using current guidance."
+      "Major: Forehead vesicles extending to eyelid, gritty eye and blurred vision suggest herpes zoster ophthalmicus: sight-threatening involvement needing same-day urgent eye/medical assessment.",
+      "Minor: Work commitments create an access barrier that could delay time-sensitive assessment.",
+      "Ask about vision, photophobia, eye pain, nasal-tip lesions, immune status, onset and current medicines/allergies; do not treat this as a routine cream request.",
+      "Explain potential eye damage plainly; help arrange urgent same-day GP/ophthalmology or emergency service. A clinician should assess oral antiviral treatment promptly; topical aciclovir cream alone is insufficient for this presentation.",
+      "Confirm Daniel has an actual appointment/transport today. Escalate immediately if vision worsens, severe eye pain or new neurological symptoms occur; discuss covering lesions and avoiding susceptible contacts until crusted."
     ],
     "questions": [
       "Which features change the referral urgency?",
       "How would you respond if the patient declines referral?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: herpes zoster (supplied PDF p. 71)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Forehead vesicles extending to eyelid, gritty eye and blurred vision suggest herpes zoster ophthalmicus: sight-threatening involvement needing same-day urgent eye/medical assessment."
+        ],
+        [
+          "Minor",
+          "Work commitments create an access barrier that could delay time-sensitive assessment."
+        ]
+      ],
+      "plan": [
+        "Ask about vision, photophobia, eye pain, nasal-tip lesions, immune status, onset and current medicines/allergies; do not treat this as a routine cream request.",
+        "Explain potential eye damage plainly; help arrange urgent same-day GP/ophthalmology or emergency service. A clinician should assess oral antiviral treatment promptly; topical aciclovir cream alone is insufficient for this presentation."
+      ],
+      "monitoring": [
+        "Confirm Daniel has an actual appointment/transport today. Escalate immediately if vision worsens, severe eye pain or new neurological symptoms occur; discuss covering lesions and avoiding susceptible contacts until crusted."
+      ],
+      "answers": [
+        "Eyelid rash plus gritty/blurred eye creates urgent ophthalmic risk, irrespective of onset being only yesterday.",
+        "Explore work barrier and offer a direct call/letter and practical appointment pathway; if he declines, explain risk, document and give clear emergency triggers."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O03",
@@ -704,8 +1246,8 @@
     "topic": "Ear / extended scope",
     "level": "Medium",
     "brief": [
-      "A 28-year-old swimmer asks for ear drops because the right ear hurts after several days at the pool.",
-      "Assess and manage the request."
+      "Mia, 28, asks for ear drops for right ear pain after swimming every day this week. She has seen a little discharge.",
+      "Assess the presentation and decide whether a pharmacy treatment pathway is appropriate."
     ],
     "actor": [
       "Pain is worse when the outer ear is moved; there is mild itch and scant discharge.",
@@ -713,18 +1255,59 @@
       "They used a cotton bud yesterday and are unsure whether the eardrum is intact."
     ],
     "key": [
-      "Confirm patient and full critical history; assess red flags, tympanic membrane concerns and differential diagnosis.",
-      "Use the current otitis externa guideline to determine examination, eligibility and treatment/referral requirements.",
-      "Explain ear care, correct use of any chosen treatment, water avoidance and when to return.",
-      "Avoid selecting a potentially unsuitable drop without checking eardrum status and guideline restrictions."
+      "Major: Otitis externa is plausible from pinna-movement pain, itch and discharge, but the tympanic membrane has not been examined; possible perforation changes scope and drop safety.",
+      "Moderate: Cotton-bud use and continued swimming may perpetuate canal trauma and moisture.",
+      "Take full history, examine ear canal and tympanic membrane with appropriate otoscopy if trained/equipped, assess hearing and red flags. If the membrane cannot be visualised or perforation is suspected, refer rather than selecting a potentially ototoxic drop.",
+      "If uncomplicated and eligible, use the Queensland otitis externa pathway and exact eTG/AMH regimen for the observed canal findings; do not use routine oral antibiotics. Explain drop administration and keeping the ear dry.",
+      "Expected improvement is usually within 48–72 hours; reassess or refer sooner for fever, spreading infection, severe pain, hearing change, dizziness or facial weakness. No improvement by 48–72 hours needs review."
     ],
     "questions": [
       "What would make you refer rather than treat?",
       "How does possible perforation alter the choice?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: acute otitis externa (supplied PDF p. 33)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Otitis externa is plausible from pinna-movement pain, itch and discharge, but the tympanic membrane has not been examined; possible perforation changes scope and drop safety."
+        ],
+        [
+          "Moderate",
+          "Cotton-bud use and continued swimming may perpetuate canal trauma and moisture."
+        ]
+      ],
+      "plan": [
+        "Take full history, examine ear canal and tympanic membrane with appropriate otoscopy if trained/equipped, assess hearing and red flags. If the membrane cannot be visualised or perforation is suspected, refer rather than selecting a potentially ototoxic drop.",
+        "If uncomplicated and eligible, use the Queensland otitis externa pathway and exact eTG/AMH regimen for the observed canal findings; do not use routine oral antibiotics. Explain drop administration and keeping the ear dry."
+      ],
+      "monitoring": [
+        "Expected improvement is usually within 48–72 hours; reassess or refer sooner for fever, spreading infection, severe pain, hearing change, dizziness or facial weakness. No improvement by 48–72 hours needs review."
+      ],
+      "answers": [
+        "Diabetes, immunosuppression, fever, extension beyond canal, severe pain, recurrent episodes, unclear diagnosis or TM red flags prompt referral.",
+        "A suspected or unseen perforation requires clinician assessment and a non-ototoxic choice; do not pick drops based only on the symptom request."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O04",
@@ -734,27 +1317,72 @@
     "topic": "Respiratory / extended scope",
     "level": "Easy",
     "brief": [
-      "A 23-year-old wants a stronger product for daily sneezing and a blocked nose. A non-sedating antihistamine has helped only a little.",
-      "Provide a patient-centred pharmacy consultation."
+      "Olivia, 23, asks for a stronger hay-fever product. She takes loratadine 10 mg most mornings but still has daily sneezing and a blocked nose.",
+      "She drives for work and needs to remain alert. Assess and manage the request."
     ],
     "actor": [
-      "Symptoms occur most days in spring, with itchy eyes. No fever, unilateral bleeding or facial pain.",
-      "They tried a nasal corticosteroid for two days, then stopped because it seemed ineffective. They are not pregnant, take no other medicines and have no known allergies.",
-      "They need to stay alert while driving for work."
+      "Springtime sneezing, clear runny nose, nasal blockage and itchy eyes on most days; no fever, unilateral symptoms, facial pain or bleeding.",
+      "Loratadine 10 mg is taken most mornings. She tried fluticasone nasal spray 50 micrograms/spray, one spray in each nostril for only two days, then stopped. No other medicines, conditions or allergies; not pregnant.",
+      "She points the spray toward the nasal septum and sniffs hard. Driving alertness matters to her."
     ],
     "key": [
-      "Confirm symptoms and consider allergic versus nonallergic rhinitis and red flags.",
-      "Check how prior medicines were used, technique and adequate trial before recommending a change.",
-      "Discuss suitable options, onset/expectations, technique, non-drug measures and driving preference using current guideline.",
-      "Set a review point and escalation criteria."
+      "Moderate: Persistent nasal obstruction despite loratadine 10 mg daily; the two-day fluticasone trial and poor technique are inadequate to judge intranasal steroid failure.",
+      "Minor: Driving makes sedating antihistamines an unattractive choice.",
+      "Check red flags and confirm allergic pattern, adherence and product technique. For the 50 micrograms/spray fluticasone propionate product she already owns, a usual adult starting regimen is 2 sprays in each nostril once daily (200 micrograms/day), then 1 spray each nostril daily when controlled; verify her product label and suitability. Correct technique: aim away from septum, gentle sniff, use daily, explain delayed full benefit. Do not simply escalate to a sedating oral antihistamine.",
+      "Discuss allergen avoidance and saline rinse if acceptable; an eye product may be considered if itchy eyes remain troublesome after nasal control.",
+      "Agree a review after 2–4 weeks of correct daily use; refer sooner for unilateral obstruction, bleeding, fever, severe facial pain or no response after an adequate trial."
     ],
     "questions": [
       "What changes your diagnosis?",
       "How would you check nasal spray technique?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: rhinitis (supplied PDF p. 54)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Moderate",
+          "Persistent nasal obstruction despite loratadine 10 mg daily; the two-day fluticasone trial and poor technique are inadequate to judge intranasal steroid failure."
+        ],
+        [
+          "Minor",
+          "Driving makes sedating antihistamines an unattractive choice."
+        ]
+      ],
+      "plan": [
+        "Check red flags and confirm allergic pattern, adherence and product technique. For the 50 micrograms/spray fluticasone propionate product she already owns, a usual adult starting regimen is 2 sprays in each nostril once daily (200 micrograms/day), then 1 spray each nostril daily when controlled; verify her product label and suitability. Correct technique: aim away from septum, gentle sniff, use daily, explain delayed full benefit. Do not simply escalate to a sedating oral antihistamine.",
+        "Discuss allergen avoidance and saline rinse if acceptable; an eye product may be considered if itchy eyes remain troublesome after nasal control."
+      ],
+      "monitoring": [
+        "Agree a review after 2–4 weeks of correct daily use; refer sooner for unilateral obstruction, bleeding, fever, severe facial pain or no response after an adequate trial."
+      ],
+      "answers": [
+        "Unilateral symptoms, bleeding, purulent discharge, facial pain/fever or a nonseasonal pattern would prompt another diagnosis or referral.",
+        "Demonstrate priming, head position and outward nozzle direction; ask Olivia to show the technique back, then arrange a full regular trial."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ],
+        [
+          "Fluticasone nasal spray product information — TGA",
+          "https://www.tga.gov.au/sites/default/files/foi-132-718-01.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "O05",
@@ -764,8 +1392,8 @@
     "topic": "Gastrointestinal / extended scope",
     "level": "High",
     "brief": [
-      "A 54-year-old asks for omeprazole for worsening heartburn. They have taken antacids for months.",
-      "Assess the presentation and decide what happens today."
+      "Aaron, 54, asks for omeprazole 20 mg because his heartburn is getting worse despite antacid tablets.",
+      "He is travelling soon and wants a quick product. Assess what should happen today."
     ],
     "actor": [
       "On questioning, food has recently felt stuck when swallowing and they have lost weight without trying.",
@@ -773,18 +1401,59 @@
       "They want a quick product because they are travelling soon."
     ],
     "key": [
-      "Elicit dysphagia and weight loss and arrange timely medical assessment; do not simply supply symptom suppression.",
-      "Review duration, severity, bleeding symptoms, medicines, red flags and alternative diagnoses.",
-      "Explain the reason for referral clearly and assist with access; discuss interim measures within safe scope.",
-      "Document advice and give escalation instructions for severe or worsening symptoms."
+      "Major: New dysphagia (food sticking) and unexplained weight loss alongside worsening reflux are alarm features needing prompt medical assessment, not repeated OTC acid suppression.",
+      "Moderate: Ibuprofen use several days a week may worsen upper GI symptoms and increase ulcer/bleeding risk.",
+      "Ask about progression of swallowing difficulty, weight change, bleeding, vomiting, chest pain, medicines and prior investigation. Arrange prompt GP assessment before travel; emergency assessment for inability to swallow, food impaction, haematemesis, melaena or severe chest pain.",
+      "Explain why omeprazole 20 mg may mask symptoms without addressing their cause. Discuss avoiding self-selected ibuprofen pending review and simple interim meal/position measures compatible with referral.",
+      "Confirm appointment and written safety net today; follow up that the referral occurred and medicine list was communicated."
     ],
     "questions": [
       "Which symptoms are alarm features?",
       "How does ibuprofen affect the assessment?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: GORD (supplied PDF p. 63)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "New dysphagia (food sticking) and unexplained weight loss alongside worsening reflux are alarm features needing prompt medical assessment, not repeated OTC acid suppression."
+        ],
+        [
+          "Moderate",
+          "Ibuprofen use several days a week may worsen upper GI symptoms and increase ulcer/bleeding risk."
+        ]
+      ],
+      "plan": [
+        "Ask about progression of swallowing difficulty, weight change, bleeding, vomiting, chest pain, medicines and prior investigation. Arrange prompt GP assessment before travel; emergency assessment for inability to swallow, food impaction, haematemesis, melaena or severe chest pain.",
+        "Explain why omeprazole 20 mg may mask symptoms without addressing their cause. Discuss avoiding self-selected ibuprofen pending review and simple interim meal/position measures compatible with referral."
+      ],
+      "monitoring": [
+        "Confirm appointment and written safety net today; follow up that the referral occurred and medicine list was communicated."
+      ],
+      "answers": [
+        "Dysphagia and unintended weight loss are the key alarms; bleeding, persistent vomiting or severe chest pain would increase urgency.",
+        "Ibuprofen can cause upper-GI irritation/bleeding; document dose and frequency and ask GP to review analgesia."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O06",
@@ -794,8 +1463,8 @@
     "topic": "Gastrointestinal / extended scope",
     "level": "High",
     "brief": [
-      "A parent asks for a medicine to stop their 2-year-old's vomiting after a day of gastroenteritis symptoms.",
-      "Manage the request."
+      "A parent asks for ondansetron for their 2-year-old child, Eva (12 kg), after repeated vomiting since yesterday.",
+      "Assess hydration and decide on a safe plan."
     ],
     "actor": [
       "The child weighs 12 kg, has vomited repeatedly and has had few wet nappies today. The parent says the child is less active than usual.",
@@ -803,18 +1472,59 @@
       "The parent has tried small sips of juice but they have not stayed down."
     ],
     "key": [
-      "Confirm age/weight, hydration status, frequency/duration, red flags, medicines, conditions and allergy/adverse effects.",
-      "Recognise reduced urine and reduced activity as concerning; arrange prompt medical assessment rather than an automatic antiemetic supply.",
-      "Explain appropriate oral rehydration advice only if safe while care is accessed, and what signs warrant urgent escalation.",
-      "Address the parent's immediate practical concern and help arrange a beneficial outcome."
+      "Major: Few wet nappies, reduced activity and inability to keep small sips down suggest dehydration; child needs prompt face-to-face medical assessment.",
+      "Minor: Juice has not been retained; parent needs practical oral-rehydration guidance while care is arranged.",
+      "Ask frequency, last urine, alertness, fever, diarrhoea, blood/bile, abdominal pain, medicines and allergy. Arrange urgent same-day medical review, or emergency care for lethargy, severe dehydration, bilious/bloody vomit or severe abdominal pain. Do not automatically supply ondansetron without assessment.",
+      "If alert and able to sip while travelling to care, offer small frequent amounts of oral rehydration solution; do not delay referral to test home treatment.",
+      "Confirm destination and transport now. Parent should seek emergency help for inability to rouse, no urine, worsening weakness, blood/bile or inability to retain fluids."
     ],
     "questions": [
       "How do you assess dehydration?",
       "What would change the urgency?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: acute nausea/vomiting (supplied PDF p. 22)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Few wet nappies, reduced activity and inability to keep small sips down suggest dehydration; child needs prompt face-to-face medical assessment."
+        ],
+        [
+          "Minor",
+          "Juice has not been retained; parent needs practical oral-rehydration guidance while care is arranged."
+        ]
+      ],
+      "plan": [
+        "Ask frequency, last urine, alertness, fever, diarrhoea, blood/bile, abdominal pain, medicines and allergy. Arrange urgent same-day medical review, or emergency care for lethargy, severe dehydration, bilious/bloody vomit or severe abdominal pain. Do not automatically supply ondansetron without assessment.",
+        "If alert and able to sip while travelling to care, offer small frequent amounts of oral rehydration solution; do not delay referral to test home treatment."
+      ],
+      "monitoring": [
+        "Confirm destination and transport now. Parent should seek emergency help for inability to rouse, no urine, worsening weakness, blood/bile or inability to retain fluids."
+      ],
+      "answers": [
+        "Ask last wet nappy, thirst, tears, mouth moisture, eyes, capillary refill, activity and oral intake; assess in person.",
+        "Bilious/bloody emesis, marked lethargy, severe pain or no urine increases urgency to emergency care."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O07",
@@ -824,27 +1534,68 @@
     "topic": "Pain / extended scope",
     "level": "Medium",
     "brief": [
-      "A 72-year-old asks for a strong anti-inflammatory tablet for a painful knee after gardening yesterday.",
-      "Assess and manage the request."
+      "Peter, 72, asks for ibuprofen 400 mg tablets for a painful right knee after gardening yesterday.",
+      "He wants to be able to walk to the shops next week. Assess the request before recommending a product."
     ],
     "actor": [
-      "No major injury, fever, inability to bear weight or hot swollen joint. They have CKD and take an ARB and a diuretic.",
-      "They used ibuprofen yesterday and had dizziness on standing today. No known medicine allergies.",
-      "Their goal is to walk comfortably to the shops next week."
+      "No fall, twisting injury, fever, hot swollen joint or inability to bear weight. Right knee is sore after gardening.",
+      "He has CKD (last eGFR 42 mL/min/1.73 m²), hypertension and heart failure; takes irbesartan 150 mg and furosemide 40 mg each morning. He took ibuprofen 400 mg once yesterday and was dizzy on standing today. No known allergy.",
+      "He has no chest pain or breathlessness at rest; he would accept a non-drug plan if it helps him walk."
     ],
     "key": [
-      "Confirm patient, injury mechanism, pain features, function, red flags and complete medicine/condition/allergy history.",
-      "Identify renal/dehydration concerns with oral NSAIDs in this patient; assess dizziness and whether medical review is needed.",
-      "Discuss patient-specific non-drug and medicine options only after checking current AMH/guideline, and support the functional goal.",
-      "Safety-net for worsening pain, swelling, systemic symptoms or reduced urine."
+      "Major: Oral ibuprofen 400 mg in a patient with eGFR 42, irbesartan 150 mg and furosemide 40 mg poses AKI/volume and heart-failure risk; new postural dizziness merits assessment.",
+      "Moderate: Acute knee pain needs injury, inflammatory and infection red flags excluded and a function-focused plan.",
+      "Do not recommend further oral ibuprofen. Check BP/orthostatics, fluid status, urine output, weight and other NSAIDs; arrange timely GP review and current renal function/electrolytes given dizziness and the exposure.",
+      "If no red flags, discuss rest from provoking activity, ice/other simple measures, gradual movement and a patient-specific analgesic option after AMH review of his full history; avoid implying any option is automatically risk-free.",
+      "Review dizziness and urine output promptly; reassess knee pain and ability to walk in a few days. Urgent referral for hot swollen joint, fever, inability to bear weight, severe pain, reduced urine, syncope or new heart-failure symptoms."
     ],
     "questions": [
       "Which medicines and conditions change analgesic choice?",
       "What would make this an urgent referral?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: mild acute musculoskeletal pain (supplied PDF p. 123)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Oral ibuprofen 400 mg in a patient with eGFR 42, irbesartan 150 mg and furosemide 40 mg poses AKI/volume and heart-failure risk; new postural dizziness merits assessment."
+        ],
+        [
+          "Moderate",
+          "Acute knee pain needs injury, inflammatory and infection red flags excluded and a function-focused plan."
+        ]
+      ],
+      "plan": [
+        "Do not recommend further oral ibuprofen. Check BP/orthostatics, fluid status, urine output, weight and other NSAIDs; arrange timely GP review and current renal function/electrolytes given dizziness and the exposure.",
+        "If no red flags, discuss rest from provoking activity, ice/other simple measures, gradual movement and a patient-specific analgesic option after AMH review of his full history; avoid implying any option is automatically risk-free."
+      ],
+      "monitoring": [
+        "Review dizziness and urine output promptly; reassess knee pain and ability to walk in a few days. Urgent referral for hot swollen joint, fever, inability to bear weight, severe pain, reduced urine, syncope or new heart-failure symptoms."
+      ],
+      "answers": [
+        "CKD, heart failure and ARB plus diuretic make oral NSAID exposure risky; clarify exact medicine list and hydration.",
+        "Hot swollen joint, fever, inability to bear weight, trauma, severe pain, syncope, reduced urine or heart-failure symptoms require urgent review."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O08",
@@ -854,27 +1605,68 @@
     "topic": "Women's health / extended scope",
     "level": "High",
     "brief": [
-      "A 29-year-old asks for a continuation of their combined oral contraceptive prescription because their GP appointment is in three weeks.",
-      "Conduct the consultation and decide on a safe plan."
+      "Amelia, 29, asks for continuation of her levonorgestrel 150 micrograms/ethinylestradiol 30 micrograms combined pill. Her GP appointment is in three weeks.",
+      "Conduct the consultation and make a safe contraception plan."
     ],
     "actor": [
-      "They have taken the same pill for two years. They report episodes of visual zig-zags followed by headache in the past six months, but have not mentioned them to a clinician.",
-      "No current pregnancy symptoms; one pill was missed last week. They do not smoke and take no other medicines. No known allergies.",
-      "They are anxious about a gap in contraception."
+      "She has used the same combined pill for two years. Over six months she has had visual zig-zags before several headaches; a clinician has not assessed this.",
+      "No pregnancy symptoms; one active pill missed last week. She does not smoke, takes no other medicines and has no known allergies. No BP reading is available today.",
+      "She is anxious about a gap in contraception and can answer questions on dates of missed pill and intercourse if asked; do not invent those dates."
     ],
     "key": [
-      "Assess pregnancy risk, missed pills, relevant medical history, BP, migraine symptoms, contraindications and current guideline eligibility.",
-      "Recognise possible migraine with aura as a safety concern for combined hormonal contraception and refer for appropriate review rather than routine continuation.",
-      "Address immediate contraception needs with guideline-consistent interim advice, including emergency contraception assessment if indicated.",
-      "Use shared decision making and clear follow-up."
+      "Major: New visual aura before headache suggests migraine with aura, a contraindication to combined hormonal contraception; routine continuation of the 150/30 microgram pill is unsafe pending assessment.",
+      "Moderate: Missed active pill and unknown timing of intercourse require pregnancy and emergency-contraception assessment; current BP is also missing.",
+      "Clarify aura features, other vascular risks, BP, pill pack timing, missed-dose details, intercourse and pregnancy possibility. Refer promptly for clinician assessment and transition away from estrogen-containing contraception.",
+      "Do not leave a contraceptive gap: discuss a suitable progestogen-only/nonhormonal interim method after eligibility review, condoms now, and emergency contraception if timing indicates. Use the Queensland hormonal-contraception pathway and current eTG/AMH for exact product and start rules.",
+      "Confirm the patient has an interim plan today and a GP/sexual-health appointment. Review pregnancy testing at the appropriate interval if indicated; urgent care for sudden severe headache or focal neurological deficit."
     ],
     "questions": [
       "Which history changes eligibility?",
       "How do you avoid leaving the patient without a contraception plan?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: hormonal contraception (supplied PDF p. 81)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "New visual aura before headache suggests migraine with aura, a contraindication to combined hormonal contraception; routine continuation of the 150/30 microgram pill is unsafe pending assessment."
+        ],
+        [
+          "Moderate",
+          "Missed active pill and unknown timing of intercourse require pregnancy and emergency-contraception assessment; current BP is also missing."
+        ]
+      ],
+      "plan": [
+        "Clarify aura features, other vascular risks, BP, pill pack timing, missed-dose details, intercourse and pregnancy possibility. Refer promptly for clinician assessment and transition away from estrogen-containing contraception.",
+        "Do not leave a contraceptive gap: discuss a suitable progestogen-only/nonhormonal interim method after eligibility review, condoms now, and emergency contraception if timing indicates. Use the Queensland hormonal-contraception pathway and current eTG/AMH for exact product and start rules."
+      ],
+      "monitoring": [
+        "Confirm the patient has an interim plan today and a GP/sexual-health appointment. Review pregnancy testing at the appropriate interval if indicated; urgent care for sudden severe headache or focal neurological deficit."
+      ],
+      "answers": [
+        "Aura changes combined-pill eligibility and is more important than years of previous tolerance; also check BP, smoking and thrombotic history.",
+        "Clarify missed-pill/intercourse timing, assess emergency contraception, provide condoms and arrange eligible alternative contraception promptly."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O09",
@@ -891,22 +1683,68 @@
     "actor": [
       "If asked, Evelyn takes variable warfarin doses and has not had an INR for about three weeks. She has not yet told the INR clinic about this prescription.",
       "She has a cough but no fever, severe breathlessness or chest pain. She noticed mild blood in her urine today; ask further about bleeding and escalation.",
-      "She has no known medicine allergies and also takes perindopril 5 mg daily and atorvastatin 20 mg nightly."
+      "No known medicine allergies. Other regular medicines: perindopril 5 mg daily and atorvastatin 20 mg nightly; no other antibiotics."
     ],
     "key": [
-      "Confirm patient, indication, symptoms, medicine history, medical conditions and allergies; assess haematuria and other urgent features.",
-      "Check clarithromycin with warfarin and other current medicines in AMH/eTG, and contact the prescriber and INR service for a coordinated antibiotic and monitoring plan before supply.",
-      "Explain the safety concern and next steps respectfully; do not independently alter warfarin dosing without a supported plan.",
-      "Provide clear bleeding and infection safety-net advice and document the outcome."
+      "Major: Visible haematuria today while taking warfarin with no INR for about three weeks requires same-day medical assessment for bleeding and cause, before routine antibiotic supply.",
+      "Major: Clarithromycin 500 mg twice daily for 7 days can increase warfarin effect and interacts with atorvastatin 20 mg; the prescriber and INR service need a coordinated alternative/monitoring plan.",
+      "Moderate: Chest-infection indication, severity and antibiotic suitability remain unconfirmed.",
+      "Assess bleeding severity and infection symptoms now; do not let the patient leave with the interaction unresolved. Contact Dr Patel with exact prescription, warfarin schedule, haematuria, last INR and atorvastatin 20 mg. Request an appropriate alternative antibiotic based on diagnosis/allergy and arrange INR-clinic instructions.",
+      "Do not independently change warfarin. If clarithromycin remains the agreed choice, prescriber/INR service must specify INR timing and atorvastatin management; document the decision before supply.",
+      "Confirm same-day assessment of haematuria and INR plan; emergency care for heavy bleeding, clots, dizziness, severe breathlessness or chest pain. Follow up the new antibiotic, interactions and symptom response."
     ],
     "questions": [
       "What information do you need from the prescription?",
       "Who do you contact and what do you say?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Course AMH/eTG and OSCE rubric",
       "Australian Government, Guiding Principles for Medication Management in the Community"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Visible haematuria today while taking warfarin with no INR for about three weeks requires same-day medical assessment for bleeding and cause, before routine antibiotic supply."
+        ],
+        [
+          "Major",
+          "Clarithromycin 500 mg twice daily for 7 days can increase warfarin effect and interacts with atorvastatin 20 mg; the prescriber and INR service need a coordinated alternative/monitoring plan."
+        ],
+        [
+          "Moderate",
+          "Chest-infection indication, severity and antibiotic suitability remain unconfirmed."
+        ]
+      ],
+      "plan": [
+        "Assess bleeding severity and infection symptoms now; do not let the patient leave with the interaction unresolved. Contact Dr Patel with exact prescription, warfarin schedule, haematuria, last INR and atorvastatin 20 mg. Request an appropriate alternative antibiotic based on diagnosis/allergy and arrange INR-clinic instructions.",
+        "Do not independently change warfarin. If clarithromycin remains the agreed choice, prescriber/INR service must specify INR timing and atorvastatin management; document the decision before supply."
+      ],
+      "monitoring": [
+        "Confirm same-day assessment of haematuria and INR plan; emergency care for heavy bleeding, clots, dizziness, severe breathlessness or chest pain. Follow up the new antibiotic, interactions and symptom response."
+      ],
+      "answers": [
+        "Check patient/prescriber, medicine, strength, directions, indication, allergy, timing and recent INR plus all interacting drugs.",
+        "Contact prescriber and INR service using a concise risk statement and ask for an alternative or explicit monitoring/atorvastatin plan; repeat back and document."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O10",
@@ -916,27 +1754,68 @@
     "topic": "Skin / extended scope",
     "level": "Medium",
     "brief": [
-      "An adult with known atopic dermatitis asks for a stronger steroid because a patch on the forearm has become very red and weepy.",
-      "Assess and manage the request."
+      "Clara, 32, has known atopic dermatitis. She asks for a stronger steroid because a forearm patch is now red, weepy and sore despite hydrocortisone 1% cream.",
+      "Assess whether this is a flare, infection or another condition before choosing treatment."
     ],
     "actor": [
-      "The patch is more painful than usual and has honey-coloured crusting. There is no fever or rapidly spreading redness.",
-      "They use an emollient inconsistently and a mild topical corticosteroid. No other medicines or known allergies.",
-      "They have a family event and want it improved quickly."
+      "The 4 cm patch is more painful than usual and has honey-coloured crusting. No fever, rapidly spreading redness or other lesions.",
+      "She uses hydrocortisone 1% twice daily for two days of each flare and an emollient only when itchy. No other medicines or known allergies.",
+      "She has a family event soon and wants rapid improvement; she can return for assessment if needed."
     ],
     "key": [
-      "Clarify whether this is a simple flare, secondary infection or another diagnosis and assess extent/systemic symptoms.",
-      "Check medicine use, application technique, previous response and guideline eligibility.",
-      "Avoid simply escalating steroid potency without addressing possible infection and referral/treatment requirements.",
-      "Explain skin care, treatment plan, infection precautions, follow-up and safety net."
+      "Major: Pain, weeping and honey-coloured crusting raise secondary bacterial infection/impetiginised eczema; increasing steroid potency alone misses the possible infection.",
+      "Moderate: Intermittent emollient use and brief hydrocortisone 1% courses may contribute to poor eczema control; distinguish technique/adherence from treatment failure.",
+      "Examine extent, warmth, spreading erythema, fever and other sites; assess Queensland impetigo/atopic dermatitis eligibility. Treat or refer the infection component using the current pathway before deciding steroid strength; no blind escalation.",
+      "Explain regular fragrance-free emollient use, short appropriate anti-inflammatory course on eczema skin per product/guideline, gentle cleansing and infection-spread precautions.",
+      "Review within 48–72 hours or sooner for spreading erythema, fever, systemic symptoms or worsening pain. Document lesion appearance and chosen pathway."
     ],
     "questions": [
       "What clues suggest secondary infection?",
       "How would you counsel on emollients and topical therapy?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: atopic dermatitis (supplied PDF p. 140)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Pain, weeping and honey-coloured crusting raise secondary bacterial infection/impetiginised eczema; increasing steroid potency alone misses the possible infection."
+        ],
+        [
+          "Moderate",
+          "Intermittent emollient use and brief hydrocortisone 1% courses may contribute to poor eczema control; distinguish technique/adherence from treatment failure."
+        ]
+      ],
+      "plan": [
+        "Examine extent, warmth, spreading erythema, fever and other sites; assess Queensland impetigo/atopic dermatitis eligibility. Treat or refer the infection component using the current pathway before deciding steroid strength; no blind escalation.",
+        "Explain regular fragrance-free emollient use, short appropriate anti-inflammatory course on eczema skin per product/guideline, gentle cleansing and infection-spread precautions."
+      ],
+      "monitoring": [
+        "Review within 48–72 hours or sooner for spreading erythema, fever, systemic symptoms or worsening pain. Document lesion appearance and chosen pathway."
+      ],
+      "answers": [
+        "Pain, crusting, weeping and change from usual pattern suggest infection; check warmth, expansion, fever and contacts.",
+        "Use emollient consistently and apply the prescribed topical product correctly to appropriate sites; reassess after infection is addressed."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O11",
@@ -946,27 +1825,68 @@
     "topic": "Skin / extended scope",
     "level": "Medium",
     "brief": [
-      "A 46-year-old with known plaque psoriasis requests a repeat of the strong steroid they previously used on elbows. They now have a rash on the face and groin.",
-      "Conduct the consultation."
+      "Min, 46, has plaque psoriasis on the elbows and asks to reuse betamethasone dipropionate 0.05% ointment on a new face and groin rash.",
+      "Conduct a private consultation and decide what advice or referral is needed."
     ],
     "actor": [
-      "The facial/groin rash is new and has not been diagnosed. They also describe new painful swollen fingers in the morning.",
-      "No fever. They use a topical steroid intermittently and take no other regular medicines. No known allergies.",
-      "They are embarrassed by the rash and want a discreet plan."
+      "The facial/groin rash is new and has never been diagnosed. They also have new morning swelling and pain in two fingers lasting about an hour.",
+      "No fever. Betamethasone dipropionate 0.05% is used on elbow plaques intermittently; no other regular medicines or known allergies.",
+      "They are embarrassed and prefer a discreet plan."
     ],
     "key": [
-      "Establish site, diagnosis certainty, extent, previous treatments and symptoms of psoriatic arthritis.",
-      "Recognise sensitive-site and joint concerns that need medical assessment; avoid routine use of a potent steroid there.",
-      "Respect privacy, explain referral and interim skin care within scope.",
-      "Plan follow-up and urgent escalation for severe or rapidly worsening symptoms."
+      "Major: New swollen painful fingers with morning stiffness may indicate psoriatic arthritis and warrant medical assessment to prevent joint damage.",
+      "Moderate: New face/groin rash is not confirmed psoriasis; potent betamethasone dipropionate 0.05% used on elbows is unsuitable for routine use on thin skin there without assessment.",
+      "Offer privacy; ask about joint pattern, function, extent, systemic symptoms and alternative rash causes. Arrange GP/dermatology and joint assessment, with urgency based on severity.",
+      "Advise against applying the strong elbow steroid to face/groin. Provide gentle skin care/emollient advice while awaiting a site-specific diagnosis and treatment plan.",
+      "Check that referral is booked and review symptoms; urgent care for a hot acutely swollen joint, fever or rapidly worsening widespread rash."
     ],
     "questions": [
       "Which features change scope?",
       "How do you address privacy and patient preference?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: mild plaque psoriasis (supplied PDF p. 1)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "New swollen painful fingers with morning stiffness may indicate psoriatic arthritis and warrant medical assessment to prevent joint damage."
+        ],
+        [
+          "Moderate",
+          "New face/groin rash is not confirmed psoriasis; potent betamethasone dipropionate 0.05% used on elbows is unsuitable for routine use on thin skin there without assessment."
+        ]
+      ],
+      "plan": [
+        "Offer privacy; ask about joint pattern, function, extent, systemic symptoms and alternative rash causes. Arrange GP/dermatology and joint assessment, with urgency based on severity.",
+        "Advise against applying the strong elbow steroid to face/groin. Provide gentle skin care/emollient advice while awaiting a site-specific diagnosis and treatment plan."
+      ],
+      "monitoring": [
+        "Check that referral is booked and review symptoms; urgent care for a hot acutely swollen joint, fever or rapidly worsening widespread rash."
+      ],
+      "answers": [
+        "Sensitive site with uncertain diagnosis and possible psoriatic arthritis puts this outside a routine repeat-steroid request.",
+        "Ask how Min wants to communicate; move to a private area, explain the reason for assessment without judgement and agree a practical referral."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "O12",
@@ -976,27 +1896,68 @@
     "topic": "Prevention / extended scope",
     "level": "Easy",
     "brief": [
-      "A 41-year-old asks for help quitting smoking before a planned surgery in eight weeks. They want to know whether nicotine replacement might help.",
-      "Run a 10-minute patient-centred consultation."
+      "Noah, 41, wants to stop smoking before surgery in eight weeks. He asks whether a 21 mg nicotine patch might help.",
+      "Run a 10-minute patient-centred consultation and agree a practical first step."
     ],
     "actor": [
-      "They smoke about 15 cigarettes a day and usually light the first within 30 minutes of waking. They tried quitting once and relapsed during a stressful week.",
-      "They take sertraline, have no known allergies, are not pregnant and prefer a plan they can afford.",
-      "Their partner smokes at home but is willing to support a quit attempt."
+      "He smokes about 15 cigarettes daily; first cigarette is within 30 minutes of waking. One earlier quit attempt ended during a stressful week.",
+      "He takes sertraline 50 mg daily, has no known allergies, is not pregnant and wants an affordable plan. His partner smokes but is willing to help.",
+      "He is open to a quit date next week and combined patch plus short-acting nicotine product if explained."
     ],
     "key": [
-      "Assess readiness, dependence, prior attempts, triggers, medical/medicine history and treatment preferences.",
-      "Use current guideline to discuss behavioural support and suitable pharmacotherapy; verify product, dose and precautions in AMH before recommending.",
-      "Set a quit date or next step, practical support and a follow-up plan.",
-      "Discuss smoke exposure and relapse as part of learning, not failure."
+      "Moderate: Daily smoking with first cigarette within 30 minutes indicates nicotine dependence; surgery in eight weeks makes timely cessation support valuable.",
+      "Minor: Prior stress-triggered relapse, partner smoking and cost could undermine adherence unless included in the plan.",
+      "Ask about dependence, withdrawal, prior method, triggers, mental health, other medicines, budget and preferred quit date. Discuss behavioural support plus NRT: a 21 mg daily patch is a plausible starting option for this level of dependence, with a short-acting form for breakthrough cravings after checking exact product directions and suitability in AMH/Queensland guidance.",
+      "Offer Quitline and a written quit date/trigger plan; ask the partner to support a smoke-free home. Review interactions with smoking cessation and any relevant medicines with the prescriber.",
+      "Review in the first week after quit date for cravings, adverse effects and patch use, then again before surgery; adjust NRT with the pharmacist/prescriber if cravings persist. Treat a lapse as information for the next attempt."
     ],
     "questions": [
       "What would shape product choice?",
       "How would you support a relapse?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
+      "Queensland Health Acute Condition Guidelines, version dated 1 July 2025 (provided course PDF)",
       "Queensland Health acute condition guideline: smoking cessation (supplied PDF p. 166)"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Moderate",
+          "Daily smoking with first cigarette within 30 minutes indicates nicotine dependence; surgery in eight weeks makes timely cessation support valuable."
+        ],
+        [
+          "Minor",
+          "Prior stress-triggered relapse, partner smoking and cost could undermine adherence unless included in the plan."
+        ]
+      ],
+      "plan": [
+        "Ask about dependence, withdrawal, prior method, triggers, mental health, other medicines, budget and preferred quit date. Discuss behavioural support plus NRT: a 21 mg daily patch is a plausible starting option for this level of dependence, with a short-acting form for breakthrough cravings after checking exact product directions and suitability in AMH/Queensland guidance.",
+        "Offer Quitline and a written quit date/trigger plan; ask the partner to support a smoke-free home. Review interactions with smoking cessation and any relevant medicines with the prescriber."
+      ],
+      "monitoring": [
+        "Review in the first week after quit date for cravings, adverse effects and patch use, then again before surgery; adjust NRT with the pharmacist/prescriber if cravings persist. Treat a lapse as information for the next attempt."
+      ],
+      "answers": [
+        "Dependence, morning smoking, previous withdrawal, preferences, cost and medicine/mental-health history shape product choice.",
+        "Ask what triggered the lapse, reinforce what worked, revise coping/NRT plan and agree another quit attempt rather than framing it as failure."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ],
+        [
+          "Provided Queensland Health acute condition guide",
+          "resources/queensland-health-acute-condition-guidelines.pdf"
+        ],
+        [
+          "Current Queensland Health guideline index",
+          "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/resources/acute-common-conditions"
+        ]
+      ]
+    }
   },
   {
     "id": "C01",
@@ -1006,28 +1967,60 @@
     "topic": "Supply and boundaries",
     "level": "High",
     "brief": [
-      "A patient on a supervised opioid treatment program says they lost today's dose and demands a replacement immediately. They are visibly distressed and raising their voice.",
-      "Respond as the pharmacist. Focus on communication and professional responsibilities."
+      "Tariq says his prescribed methadone 40 mg take-away dose for today was lost on the bus. He asks you to replace it immediately and is raising his voice.",
+      "Respond as the pharmacist, focusing on communication, safety and professional responsibilities."
     ],
     "actor": [
       "The patient is worried about withdrawal and missing work. They calm somewhat if you acknowledge this and speak privately.",
-      "They say the dose was lost on the bus. They do not have a replacement authority or confirmed direction from the prescriber.",
+      "The pharmacy record shows a methadone 40 mg take-away dose was supplied yesterday for today; there is no authority for a replacement. Tariq says the closed bottle was lost on the bus. He has no current severe withdrawal or intoxication signs.",
       "They resist being told to 'just call tomorrow' but will accept a concrete plan for today."
     ],
     "key": [
-      "Listen and acknowledge the patient's distress and immediate goal; move to a private, safe space if possible.",
-      "Avoid promising or supplying a replacement outside the applicable program and legal requirements; verify records and contact the authorised prescriber/service.",
-      "Explain what can be done now, discuss urgent clinical support if withdrawal or safety concerns arise, and agree on next steps.",
-      "Maintain calm, respectful boundaries and document the interaction."
+      "Major: Replacement of a reported lost methadone 40 mg take-away dose cannot be promised or supplied without checking program authority, records and legal requirements; duplicate dosing could be dangerous.",
+      "Moderate: Tariq is distressed about withdrawal and work and needs a concrete same-day pathway.",
+      "Acknowledge the stress, offer a private safe space and ask about current symptoms/intoxication. State that you will check the record and contact the authorised prescriber/OTP service now; do not accuse him or promise a dose.",
+      "If the service cannot be reached, identify an urgent clinical assessment pathway for withdrawal/safety needs and arrange a call-back time. Document facts, contacts, advice and the agreed plan.",
+      "Check immediate safety before he leaves and confirm who will contact him today; escalate if intoxication, severe withdrawal or other acute risk develops."
     ],
     "questions": [
       "How would you state the boundary without sounding accusatory?",
       "What is the practical plan if the prescriber cannot be reached?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric",
       "Queensland Health QScript and medicines guidance"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Replacement of a reported lost methadone 40 mg take-away dose cannot be promised or supplied without checking program authority, records and legal requirements; duplicate dosing could be dangerous."
+        ],
+        [
+          "Moderate",
+          "Tariq is distressed about withdrawal and work and needs a concrete same-day pathway."
+        ]
+      ],
+      "plan": [
+        "Acknowledge the stress, offer a private safe space and ask about current symptoms/intoxication. State that you will check the record and contact the authorised prescriber/OTP service now; do not accuse him or promise a dose.",
+        "If the service cannot be reached, identify an urgent clinical assessment pathway for withdrawal/safety needs and arrange a call-back time. Document facts, contacts, advice and the agreed plan."
+      ],
+      "monitoring": [
+        "Check immediate safety before he leaves and confirm who will contact him today; escalate if intoxication, severe withdrawal or other acute risk develops."
+      ],
+      "answers": [
+        "“I can see this is stressful and I want to help today. I need to verify the dose and speak with the program before any replacement.”",
+        "Contact the authorised service and arrange urgent assessment if needed; provide a clear next contact/time instead of “come back tomorrow.”"
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "C02",
@@ -1037,8 +2030,8 @@
     "topic": "Difficult conversation",
     "level": "Medium",
     "brief": [
-      "A parent says, 'The last pharmacist gave my child antibiotics. Why won't you? You're wasting my time.' The child has a cold-like illness and the parent is frustrated.",
-      "Respond as the pharmacist."
+      "A parent of a 5-year-old says, “The last pharmacist gave my child amoxicillin. Why won’t you? You’re wasting my time.” The child has two days of cough and runny nose.",
+      "Respond to the parent as the pharmacist. Focus on challenging communication and professional judgement."
     ],
     "actor": [
       "The parent is worried because the child missed school and they have missed work.",
@@ -1046,19 +2039,46 @@
       "They are willing to consider a safety-net plan if they feel heard."
     ],
     "key": [
-      "Find the parent's goal and concern before giving an explanation.",
-      "Use plain language and avoid criticising the prior clinician; assess red flags and offer appropriate evaluation or referral.",
-      "Explain antibiotic stewardship and symptomatic options in a way responsive to the child's presentation.",
-      "Agree on what to watch for, when to seek care and how to access it."
+      "Moderate: The parent feels dismissed and needs a clear assessment and plan; a prior antibiotic supply is not evidence that this illness needs antibiotics.",
+      "Acknowledge missed school/work and ask what worries them most. Briefly assess fever, breathing, hydration, duration and red flags; offer clinician review if unwell.",
+      "Explain in plain language why antibiotics may not help an uncomplicated viral cold, without criticising the prior pharmacist. Agree practical symptom care, return criteria and access to assessment if needed.",
+      "Confirm understanding and a time to seek care if worse or not improving; urgent care for breathing difficulty, dehydration or marked lethargy."
     ],
     "questions": [
       "How would you repair rapport after the opening statement?",
       "What if the child appears unwell?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric",
       "Queensland Health antimicrobial stewardship guidance"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Moderate",
+          "The parent feels dismissed and needs a clear assessment and plan; a prior antibiotic supply is not evidence that this illness needs antibiotics."
+        ]
+      ],
+      "plan": [
+        "Acknowledge missed school/work and ask what worries them most. Briefly assess fever, breathing, hydration, duration and red flags; offer clinician review if unwell.",
+        "Explain in plain language why antibiotics may not help an uncomplicated viral cold, without criticising the prior pharmacist. Agree practical symptom care, return criteria and access to assessment if needed."
+      ],
+      "monitoring": [
+        "Confirm understanding and a time to seek care if worse or not improving; urgent care for breathing difficulty, dehydration or marked lethargy."
+      ],
+      "answers": [
+        "Start with “I can see this has disrupted your week. What are you most worried about?” then ask permission to assess the child.",
+        "If the child appears unwell, move from persuasion to immediate clinical assessment/referral and explain the change in plan."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "C03",
@@ -1068,7 +2088,7 @@
     "topic": "Privacy and consent",
     "level": "Medium",
     "brief": [
-      "A patient's adult daughter asks you to tell her what new medicine her father collected and why. She says she always helps him and becomes offended when you hesitate.",
+      "A patient’s adult daughter asks what new antidepressant her father collected yesterday and why. He is not present and no consent is recorded. She says she manages his medicines and is offended when you hesitate.",
       "Respond as the pharmacist."
     ],
     "actor": [
@@ -1077,19 +2097,51 @@
       "She is open to asking him to join a conversation if the offer is respectful."
     ],
     "key": [
-      "Acknowledge concern and explain confidentiality in plain language without disclosing patient-specific information.",
-      "Explore whether consent/authority can be established and offer to speak together with the patient or arrange a supported review.",
-      "Address immediate safety concerns through an appropriate route without unnecessary disclosure.",
-      "Remain warm and firm; avoid implying the daughter has done something wrong."
+      "Major: Disclosing the named antidepressant or indication without consent/authority would breach confidentiality.",
+      "Moderate: The daughter reports forgetfulness, which may warrant a supported safety review without unnecessary disclosure.",
+      "Acknowledge her care for him; explain you need his permission before discussing his record. Do not confirm or deny the medicine or indication.",
+      "Offer to call the patient with her present, arrange a three-way conversation after consent, or discuss general medicine-support options. If she reports immediate danger, use an appropriate urgent safety pathway and disclose only what is necessary under applicable rules.",
+      "Document the request, any consent obtained, and the agreed safe follow-up."
     ],
     "questions": [
       "What can you say without revealing private details?",
       "What if she reports an immediate safety risk?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric",
       "Queensland Health professional practice guidance"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Disclosing the named antidepressant or indication without consent/authority would breach confidentiality."
+        ],
+        [
+          "Moderate",
+          "The daughter reports forgetfulness, which may warrant a supported safety review without unnecessary disclosure."
+        ]
+      ],
+      "plan": [
+        "Acknowledge her care for him; explain you need his permission before discussing his record. Do not confirm or deny the medicine or indication.",
+        "Offer to call the patient with her present, arrange a three-way conversation after consent, or discuss general medicine-support options. If she reports immediate danger, use an appropriate urgent safety pathway and disclose only what is necessary under applicable rules."
+      ],
+      "monitoring": [
+        "Document the request, any consent obtained, and the agreed safe follow-up."
+      ],
+      "answers": [
+        "You can explain general confidentiality rules and how to arrange consent, without confirming a medicine or diagnosis.",
+        "Assess the risk she describes and seek urgent help through the appropriate pathway; share only information needed for safety."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "C04",
@@ -1099,28 +2151,59 @@
     "topic": "Error and accountability",
     "level": "High",
     "brief": [
-      "A patient returns after noticing that the medicine in their bag has a different strength from the label. They are frightened and ask whether they have been harmed.",
+      "Priya returns with a box of amlodipine 10 mg. Her prescription and bag label say amlodipine 5 mg daily. She took one 10 mg tablet last night and asks if she has been harmed.",
       "Respond as the pharmacist."
     ],
     "actor": [
-      "They took one dose last night but have no current symptoms. They are worried the pharmacy will hide the mistake.",
-      "The product and prescription need verification before giving a risk assessment.",
-      "They want a clear explanation and to know what happens next."
+      "She has no current symptoms but is frightened. The original prescription and supply record need checking; she has not taken a second dose.",
+      "She wants the pharmacy to acknowledge the mistake and explain what will happen next."
     ],
     "key": [
-      "Respond promptly, apologise appropriately and assess immediate clinical risk; do not speculate before checking facts.",
-      "Verify prescription, product, dose taken and patient factors; arrange urgent clinical advice if indicated.",
-      "Explain the corrected supply and follow-up, documentation, incident process and who will contact them.",
-      "Be honest, calm and accountable without shifting blame."
+      "Major: Potential dispensing error: 10 mg amlodipine supplied against a 5 mg prescription and one double-strength dose taken; assess hypotension, dizziness, falls and other patient factors now.",
+      "Moderate: Priya needs honest disclosure, corrected supply and a clear follow-up owner.",
+      "Apologise and take the concern seriously. Verify prescription, product, label, batch and amount taken; check symptoms and BP if available, and seek prescriber/poisons advice if clinically indicated. Do not guess that one dose is harmless.",
+      "Secure the incorrect product, provide the correct 5 mg supply once verified, explain next-dose advice from the clinician, document the incident and tell Priya who will contact her.",
+      "Check for dizziness, fainting or falls today and follow up within 24 hours; urgent assessment for syncope, severe weakness or other concerning symptoms. Record the incident and preventive review."
     ],
     "questions": [
       "What do you do first?",
       "How do you communicate uncertainty honestly?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric",
       "Queensland Health professional practice guidance"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Potential dispensing error: 10 mg amlodipine supplied against a 5 mg prescription and one double-strength dose taken; assess hypotension, dizziness, falls and other patient factors now."
+        ],
+        [
+          "Moderate",
+          "Priya needs honest disclosure, corrected supply and a clear follow-up owner."
+        ]
+      ],
+      "plan": [
+        "Apologise and take the concern seriously. Verify prescription, product, label, batch and amount taken; check symptoms and BP if available, and seek prescriber/poisons advice if clinically indicated. Do not guess that one dose is harmless.",
+        "Secure the incorrect product, provide the correct 5 mg supply once verified, explain next-dose advice from the clinician, document the incident and tell Priya who will contact her."
+      ],
+      "monitoring": [
+        "Check for dizziness, fainting or falls today and follow up within 24 hours; urgent assessment for syncope, severe weakness or other concerning symptoms. Record the incident and preventive review."
+      ],
+      "answers": [
+        "First establish what was prescribed, dispensed and taken, then assess immediate harm and secure a safe next dose.",
+        "Say what is known, what remains to verify and when she will hear back; apologise without speculating or shifting blame."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "C05",
@@ -1130,28 +2213,59 @@
     "topic": "Interprofessional communication",
     "level": "Medium",
     "brief": [
-      "You phone a prescriber about a potential medicine interaction. They say, 'I've prescribed this for years. Just dispense it.' You still have a patient-safety concern.",
-      "Respond as the pharmacist."
+      "You phone Dr Chen about a new clarithromycin 500 mg twice-daily prescription for a patient who takes simvastatin 40 mg nightly. Dr Chen says, “I’ve prescribed this for years. Just dispense it.”",
+      "Respond to the prescriber while maintaining a professional working relationship."
     ],
     "actor": [
-      "The prescriber is pressed for time and has not heard the specific patient factors.",
-      "They become more receptive if you state the concrete risk, relevant evidence and a workable option succinctly.",
-      "They can agree to a monitoring plan or alternative if discussed clearly."
+      "The prescriber is rushed and has not heard about the patient’s simvastatin 40 mg nightly.",
+      "They will consider an alternative antibiotic or explicit statin plan when the risk is stated clearly; the infection diagnosis and allergy history still need confirmation."
     ],
     "key": [
-      "Stay respectful and assert the patient-specific concern clearly, using structured communication.",
-      "State what is known, what needs checking and a practical recommendation or monitoring option.",
-      "Confirm the agreed plan, responsibility, timing and documentation before supply.",
-      "Escalate through appropriate clinical channels if a serious safety issue remains unresolved."
+      "Major: Clarithromycin with simvastatin 40 mg is a serious interaction with myopathy/rhabdomyolysis risk; an unresolved concern should not be bypassed.",
+      "Moderate: The prescriber needs a short, patient-specific recommendation that respects time pressure.",
+      "Use a concise ISBAR: identify patient and prescription, state simvastatin 40 mg nightly and the interaction, then request an antibiotic alternative based on diagnosis/allergy or a prescriber-authorised statin interruption and restart plan.",
+      "Repeat back the agreed action, who contacts the patient, and what will be documented. If the risk remains unresolved, do not silently dispense; escalate to senior clinical advice according to local process.",
+      "Document the prescriber discussion and confirm the patient receives the final antibiotic/statin instructions and knows to report muscle pain or dark urine."
     ],
     "questions": [
       "How would you phrase the concern in 30 seconds?",
       "What if they still refuse to engage?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric",
       "Queensland Health professional practice guidance"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Clarithromycin with simvastatin 40 mg is a serious interaction with myopathy/rhabdomyolysis risk; an unresolved concern should not be bypassed."
+        ],
+        [
+          "Moderate",
+          "The prescriber needs a short, patient-specific recommendation that respects time pressure."
+        ]
+      ],
+      "plan": [
+        "Use a concise ISBAR: identify patient and prescription, state simvastatin 40 mg nightly and the interaction, then request an antibiotic alternative based on diagnosis/allergy or a prescriber-authorised statin interruption and restart plan.",
+        "Repeat back the agreed action, who contacts the patient, and what will be documented. If the risk remains unresolved, do not silently dispense; escalate to senior clinical advice according to local process."
+      ],
+      "monitoring": [
+        "Document the prescriber discussion and confirm the patient receives the final antibiotic/statin instructions and knows to report muscle pain or dark urine."
+      ],
+      "answers": [
+        "“I’m calling about Ms X’s clarithromycin 500 mg twice daily. She takes simvastatin 40 mg nightly; this combination can cause serious muscle injury. Can we choose a suitable alternative, or agree on a documented statin plan?”",
+        "Restate the patient-specific risk, offer an actionable option, then escalate through clinical channels if no safe plan is agreed."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "C06",
@@ -1161,27 +2275,53 @@
     "topic": "Access and shared decisions",
     "level": "Easy",
     "brief": [
-      "A patient says the medicine you recommended is unaffordable and that previous pharmacists have made them feel judged. They are about to leave without treatment.",
-      "Respond as the pharmacist."
+      "A patient says the fluticasone nasal spray you recommended costs more than they can pay. They say previous pharmacists made them feel judged and are about to leave untreated.",
+      "Respond as the pharmacist and agree an affordable, safe next step."
     ],
     "actor": [
-      "They can pay for a less expensive option but do not want to disclose personal finances at the counter.",
-      "They are open to discussing alternatives in private and appreciate a written simple plan.",
-      "Their main goal is symptom relief while staying within budget."
+      "They can afford a lower-cost product but do not want to discuss finances at the counter. They want relief from daily allergic-rhinitis symptoms.",
+      "They will discuss options privately and appreciate a simple written plan; no red flags are volunteered."
     ],
     "key": [
-      "Acknowledge the concern without judgement and offer privacy.",
-      "Clarify the patient's goal and constraints, then explore clinically appropriate alternatives, subsidies or referral where relevant.",
-      "Check understanding and agree on an affordable, safe next step.",
-      "Avoid promising equivalence before checking the medicine and indication."
+      "Moderate: Cost and prior stigma threaten treatment access and trust; a clinically suitable alternative must be checked rather than assumed equivalent.",
+      "Offer privacy, acknowledge the cost issue without judgement and ask for a comfortable budget. Confirm symptoms, prior therapies and exact fluticasone product/price.",
+      "Compare lower-cost intranasal corticosteroid options or other appropriate pathways based on the patient’s symptom profile, actual prices and product directions; offer a written plan or referral if none is affordable today.",
+      "Ask the patient to repeat the agreed use and review symptom benefit after an adequate trial; confirm they can obtain the chosen product."
     ],
     "questions": [
       "How do you invite a cost discussion respectfully?",
       "What if no affordable safe option is available today?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Moderate",
+          "Cost and prior stigma threaten treatment access and trust; a clinically suitable alternative must be checked rather than assumed equivalent."
+        ]
+      ],
+      "plan": [
+        "Offer privacy, acknowledge the cost issue without judgement and ask for a comfortable budget. Confirm symptoms, prior therapies and exact fluticasone product/price.",
+        "Compare lower-cost intranasal corticosteroid options or other appropriate pathways based on the patient’s symptom profile, actual prices and product directions; offer a written plan or referral if none is affordable today."
+      ],
+      "monitoring": [
+        "Ask the patient to repeat the agreed use and review symptom benefit after an adequate trial; confirm they can obtain the chosen product."
+      ],
+      "answers": [
+        "“Thanks for telling me. We can discuss prices privately and choose something that fits; what would be manageable?”",
+        "Do not pressure a purchase; offer an affordable safe alternative if verified, or referral/support and a specific follow-up."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "C07",
@@ -1191,28 +2331,59 @@
     "topic": "Autonomy and safety",
     "level": "High",
     "brief": [
-      "You have advised urgent medical review for a concerning symptom. The patient says, 'I'm not going to hospital. I had a terrible experience there.'",
-      "Respond as the pharmacist."
+      "You recommended urgent assessment because a patient reports black stools and light-headedness. They reply, “I’m not going to hospital. I had a terrible experience there.”",
+      "Respond to the refusal while keeping the patient safe and respected."
     ],
     "actor": [
-      "They fear being dismissed and leaving their child without care. They will explain these barriers if asked.",
-      "They can understand information and make their own decision. Their symptoms still need urgent assessment.",
-      "They may accept an alternative urgent care pathway or support person if options are discussed."
+      "They fear being dismissed and leaving their child without care. They can understand information and decide for themselves.",
+      "Black stools and light-headedness are ongoing; there is no confirmed explanation. They may accept a support person or different urgent care pathway."
     ],
     "key": [
-      "Listen to the previous experience and barriers, then explain the specific concern and urgency in plain language.",
-      "Respect autonomy while checking understanding and capacity; offer practical ways to access appropriate urgent care.",
-      "Give clear safety-net advice if they decline and document the discussion.",
-      "Do not use threats, blame or false reassurance."
+      "Major: Black stools with light-headedness may indicate significant GI bleeding; urgent assessment remains necessary even if the patient declines the first proposed route.",
+      "Moderate: Past care experience and childcare are real barriers that need practical solutions.",
+      "Listen to what happened previously, explain the concern and urgency in plain language, and check understanding and decision-making capacity. Offer to call an ambulance/urgent service, involve a support person and help solve childcare/transport.",
+      "If refusal persists, respect the decision, give explicit emergency triggers and document the discussion and offered options; do not falsely reassure or coerce.",
+      "Seek a concrete plan for where and when they will be assessed and who can check on them; escalate if collapse, worsening dizziness, ongoing bleeding or inability to stay safe."
     ],
     "questions": [
       "What do you say if they continue to decline?",
       "How would you address the childcare barrier?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric",
       "Queensland Health professional practice guidance"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "Black stools with light-headedness may indicate significant GI bleeding; urgent assessment remains necessary even if the patient declines the first proposed route."
+        ],
+        [
+          "Moderate",
+          "Past care experience and childcare are real barriers that need practical solutions."
+        ]
+      ],
+      "plan": [
+        "Listen to what happened previously, explain the concern and urgency in plain language, and check understanding and decision-making capacity. Offer to call an ambulance/urgent service, involve a support person and help solve childcare/transport.",
+        "If refusal persists, respect the decision, give explicit emergency triggers and document the discussion and offered options; do not falsely reassure or coerce."
+      ],
+      "monitoring": [
+        "Seek a concrete plan for where and when they will be assessed and who can check on them; escalate if collapse, worsening dizziness, ongoing bleeding or inability to stay safe."
+      ],
+      "answers": [
+        "Acknowledge the experience, explain what black stools plus dizziness could mean, and ask what would make urgent assessment possible.",
+        "Offer alternate urgent pathway and support with childcare; if still declined, check understanding, safety-net and document."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   },
   {
     "id": "C08",
@@ -1222,27 +2393,58 @@
     "topic": "Speaking up",
     "level": "Medium",
     "brief": [
-      "A busy colleague says an allergy alert is probably wrong and asks you to hand over the prescription without checking. The patient is waiting and the queue is growing.",
+      "A colleague asks you to hand over amoxicillin 500 mg capsules despite a penicillin allergy alert, saying it was “probably just nausea.” The patient is waiting and the queue is growing.",
       "Respond to the colleague and protect the patient."
     ],
     "actor": [
-      "The colleague is stressed, not hostile, and thinks the recorded reaction was only nausea.",
-      "The actual reaction and medicine have not yet been verified with the patient or record.",
-      "They will agree to a brief safety check if you propose a quick clear process."
+      "The actual reaction has not been checked. If the patient is asked, they describe wheeze and facial swelling within an hour of amoxicillin several years ago.",
+      "The colleague is stressed rather than hostile and will accept a quick joint check."
     ],
     "key": [
-      "Speak up calmly and stop an unsafe handover until the alert is clarified.",
-      "Verify the patient, medicine and reaction history; distinguish allergy from adverse effect and involve the prescriber if needed.",
-      "Explain the brief delay to the patient without blaming a colleague.",
-      "Confirm and document the final plan while maintaining teamwork."
+      "Major: The patient’s reported wheeze and facial swelling after amoxicillin are compatible with immediate serious allergy; amoxicillin 500 mg must not be handed over without prescriber review.",
+      "Minor: Queue pressure and the colleague’s assumption create a process risk.",
+      "Say calmly, “Let’s pause this supply until we check the reaction.” Ask the patient what happened, timing and any treatment; verify record and contact prescriber for a suitable alternative.",
+      "Explain a brief safety delay to the patient without blaming the colleague. Update allergy record and document the new prescription/communication.",
+      "Confirm the patient received the alternative and understands the allergy record; escalate urgently if any dose was already taken and symptoms develop."
     ],
     "questions": [
       "How do you phrase the challenge to your colleague?",
       "What if the reaction turns out to be severe?"
     ],
     "sources": [
+      "PHRM4102 2026 course practice cases and marking rubrics (Resources folder)",
       "Course OSCE Station 2 rubric",
       "Queensland Health professional practice guidance"
-    ]
+    ],
+    "review": {
+      "problems": [
+        [
+          "Major",
+          "The patient’s reported wheeze and facial swelling after amoxicillin are compatible with immediate serious allergy; amoxicillin 500 mg must not be handed over without prescriber review."
+        ],
+        [
+          "Minor",
+          "Queue pressure and the colleague’s assumption create a process risk."
+        ]
+      ],
+      "plan": [
+        "Say calmly, “Let’s pause this supply until we check the reaction.” Ask the patient what happened, timing and any treatment; verify record and contact prescriber for a suitable alternative.",
+        "Explain a brief safety delay to the patient without blaming the colleague. Update allergy record and document the new prescription/communication."
+      ],
+      "monitoring": [
+        "Confirm the patient received the alternative and understands the allergy record; escalate urgently if any dose was already taken and symptoms develop."
+      ],
+      "answers": [
+        "Use a short safety statement and invite a joint check, without criticising the colleague in front of the patient.",
+        "Stop supply; wheeze/facial swelling needs prescriber review for another antibiotic and clear allergy documentation."
+      ],
+      "alternatives": [],
+      "references": [
+        [
+          "PHRM4102 2026 marking rubric",
+          "resources/osce-rubric-2026.pdf"
+        ]
+      ]
+    }
   }
 ]

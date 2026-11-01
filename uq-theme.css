@@ -75,6 +75,26 @@ main{width:min(1360px,100%);padding:28px clamp(18px,4vw,52px) 60px}
 .debrief .detail-hero{background:#eee7f4;color:#31213e}
 .debrief .detail-hero .eyebrow{color:#51247a}
 .debrief .detail-hero p{color:#584663}
+.case-review{display:grid;gap:14px;margin:22px 0 30px}
+.case-review .panel{margin:0}
+.case-review h2{font-size:18px;letter-spacing:0;text-transform:none;margin:0 0 14px}
+.case-review h3{font-size:14px;color:#333;margin:18px 0 8px}
+.review-title{border-left:4px solid #51247a;background:#f8f5fb}
+.review-title h2{font-size:23px;margin:7px 0 0;color:#303030}
+.problem-list{display:grid;gap:12px;list-style:none;padding:0;margin:0}
+.problem-list li{display:flex;align-items:flex-start;gap:12px;line-height:1.55;font-size:14px}
+.severity{display:inline-block;flex:none;min-width:74px;text-align:center;background:#f0e8f6;color:#51247a;border-radius:3px;padding:4px 7px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.severity-major{background:#fbeae8;color:#9b3028}
+.severity-moderate{background:#fff2d9;color:#855600}
+.severity-minor{background:#e9f3ed;color:#336b47}
+.answer-item{border-top:1px solid #e4e4e4;padding:12px 0 2px}
+.answer-item:first-of-type{border-top:0;padding-top:0}
+.answer-item h3{margin:0 0 7px;color:#51247a}
+.answer-item p{font-size:14px;line-height:1.55;margin:0}
+.review-details summary{font-size:14px;font-weight:700;color:#51247a;cursor:pointer}
+.review-details .check-list{margin-top:12px}
+.review-sources{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px;font-size:13px}
+.review-sources a{color:#51247a;text-decoration:underline;text-underline-offset:3px}
 .case-data{margin-top:28px;border-top:1px solid #ddd;padding-top:20px}
 .case-allergies{font-size:14px;line-height:1.5;margin:0 0 18px}
 .case-data h3,.resource-card h3{font-size:15px;margin:22px 0 10px;color:#333}
