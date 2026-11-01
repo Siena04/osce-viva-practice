@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "V01",
+    "type": "viva",
+    "title": "Warfarin, infection and bruising",
+    "topic": "Cardiovascular",
+    "level": "High",
+    "brief": [
+      "HMR referral: Mara, 76, lives independently and wants to keep managing her own medicines. She has atrial fibrillation, hypertension and osteoarthritis.",
+      "She bought aspirin for knee pain and started an antibiotic for a chest infection three days ago.",
+      "She reports new bruises and one episode of blood when brushing her teeth. Her last documented INR was 2.4 two weeks ago."
+    ],
+    "actor": [
+      "If asked, Mara says she took aspirin most days this week because it worked better than paracetamol.",
+      "She has not told the INR clinic about the antibiotic. She is unsure of its name and has the box at home.",
+      "She has no black stools, severe headache, fall or persistent bleeding today, but the bruising is new."
+    ],
+    "key": [
+      "Prioritise the possible bleeding/anticoagulation problem; assess current bleeding and urgent red flags, verify the antibiotic and arrange prompt INR/medical review as indicated.",
+      "Identify non-prescribed aspirin and assess safer pain options without making an unsupported warfarin dose change.",
+      "Check warfarin indication, target INR, adherence, monitoring process, interactions and who will contact the prescriber/INR clinic.",
+      "Give a clear contingency plan for significant bleeding or neurological symptoms and document communication."
+    ],
+    "questions": [
+      "How do you rank the MRPs and why?",
+      "What information would change the urgency today?",
+      "What would you recommend about analgesia and monitoring?",
+      "What will you communicate to the GP and INR clinic?",
+      "How would you explain the plan to Mara without alarming her unnecessarily?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "Mara, 76 years · lives independently · HMR referral",
+      "history": "Atrial fibrillation; hypertension; knee osteoarthritis",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Warfarin",
+          "Variable daily dose per INR clinic",
+          "Atrial fibrillation"
+        ],
+        [
+          "Perindopril",
+          "5 mg each morning",
+          "Hypertension"
+        ],
+        [
+          "Atorvastatin",
+          "20 mg each evening",
+          "Cardiovascular prevention"
+        ],
+        [
+          "Paracetamol",
+          "500 mg, 1–2 tablets as needed",
+          "Knee pain"
+        ],
+        [
+          "Aspirin (self-selected)",
+          "Strength unknown; using for knee pain",
+          "Over-the-counter purchase"
+        ],
+        [
+          "Antibiotic",
+          "Name and dose unknown; started 3 days ago",
+          "Chest infection"
+        ]
+      ],
+      "results": [
+        [
+          "INR",
+          "2.4",
+          "2 weeks ago"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "V02",
+    "type": "viva",
+    "title": "Diabetes, CKD and a recent illness",
+    "topic": "Endocrine",
+    "level": "High",
+    "brief": [
+      "HMR referral: Ravi, 69, has type 2 diabetes, CKD and hypertension. He lives with his partner and would prefer a simple regimen.",
+      "He has had vomiting and poor oral intake for 48 hours but continued his regular medicines. He reports two morning episodes of shakiness relieved by juice.",
+      "Recent eGFR was 38 mL/min/1.73 m²; HbA1c 7.1%."
+    ],
+    "actor": [
+      "If asked, Ravi has not measured glucose during the shaky episodes.",
+      "He has passed less urine today and feels light-headed on standing.",
+      "He is worried that stopping any medicine, even briefly, will harm him."
+    ],
+    "key": [
+      "Treat dehydration and possible hypoglycaemia as immediate safety concerns; assess severity and arrange timely medical assessment.",
+      "Review sick-day management for relevant diabetes and blood-pressure medicines using current course guidance, with a specific restart/monitoring plan agreed by the treating clinician.",
+      "Check renal function, current glucose, medicine doses, adherence and the patient's ability to monitor at home.",
+      "Avoid assuming the HbA1c alone shows safe control; integrate age, symptoms, CKD and preference for simplicity."
+    ],
+    "questions": [
+      "Which problems need action today?",
+      "What further data would you obtain before changing long-term therapy?",
+      "How does CKD affect medicine safety?",
+      "How would you discuss a temporary sick-day plan?",
+      "Who will review the regimen after recovery?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "Ravi, 69 years · lives with partner · HMR referral",
+      "history": "Type 2 diabetes; chronic kidney disease; hypertension; dyslipidaemia",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Metformin",
+          "1 g twice daily with meals",
+          "Type 2 diabetes"
+        ],
+        [
+          "Gliclazide MR",
+          "60 mg each morning",
+          "Type 2 diabetes"
+        ],
+        [
+          "Empagliflozin",
+          "10 mg each morning",
+          "Type 2 diabetes"
+        ],
+        [
+          "Irbesartan",
+          "150 mg each morning",
+          "Hypertension / kidney protection"
+        ],
+        [
+          "Atorvastatin",
+          "20 mg each evening",
+          "Cardiovascular prevention"
+        ]
+      ],
+      "results": [
+        [
+          "HbA1c",
+          "7.1% (54 mmol/mol)",
+          "1 month ago"
+        ],
+        [
+          "eGFR",
+          "38 mL/min/1.73 m²",
+          "1 month ago"
+        ],
+        [
+          "Potassium",
+          "4.7 mmol/L",
+          "1 month ago"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "V03",
+    "type": "viva",
+    "title": "Heart failure, blood pressure and ibuprofen",
+    "topic": "Cardiovascular",
+    "level": "Medium",
+    "brief": [
+      "HMR referral: Elaine, 73, has heart failure, hypertension and chronic back pain. She has new ankle swelling and has needed two pillows at night this week.",
+      "She sometimes skips her diuretic on days out because of toilet access. She bought ibuprofen for back pain this week.",
+      "Home BP readings average 156/88 mmHg; her weight is 2.5 kg above her usual value."
+    ],
+    "actor": [
+      "If asked, she is more breathless walking to the letterbox but is comfortable at rest.",
+      "She bought ibuprofen because she did not realise it could affect her heart or kidneys.",
+      "She wants help finding a pain option that lets her stay active."
+    ],
+    "key": [
+      "Recognise possible worsening heart failure and arrange prompt clinical assessment, escalating if severe breathlessness or chest pain emerges.",
+      "Identify ibuprofen and missed diuretic doses as contributors; review pain management and adherence barriers with the patient.",
+      "Request renal function, electrolytes, BP and weight trend before recommending regimen changes.",
+      "Agree a feasible monitoring and access plan with GP/cardiology and the patient."
+    ],
+    "questions": [
+      "What are your top three MRPs?",
+      "What symptoms would require urgent care?",
+      "How would you address the diuretic adherence barrier?",
+      "What monitoring is needed?",
+      "How would you compare pain options in this patient?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "Elaine, 73 years · HMR referral",
+      "history": "Heart failure; hypertension; dyslipidaemia; chronic back pain",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Perindopril",
+          "5 mg each morning",
+          "Heart failure / hypertension"
+        ],
+        [
+          "Bisoprolol",
+          "5 mg each morning",
+          "Heart failure"
+        ],
+        [
+          "Furosemide",
+          "40 mg each morning; sometimes skipped",
+          "Fluid management"
+        ],
+        [
+          "Atorvastatin",
+          "40 mg each evening",
+          "Cardiovascular prevention"
+        ],
+        [
+          "Ibuprofen (self-selected)",
+          "400 mg up to 3 times daily for 1 week",
+          "Back pain"
+        ]
+      ],
+      "results": [
+        [
+          "Home BP",
+          "Average 156/88 mmHg",
+          "Recent week"
+        ],
+        [
+          "Weight",
+          "+2.5 kg above usual",
+          "This week"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "V04",
+    "type": "viva",
+    "title": "Thyroid replacement and administration",
+    "topic": "Endocrine",
+    "level": "Medium",
+    "brief": [
+      "HMR referral: Zoe, 58, has hypothyroidism, iron-deficiency anaemia and reflux. She reports fatigue and has recently been told her TSH is above her laboratory's reference range.",
+      "She takes all tablets together with breakfast to avoid forgetting them.",
+      "The GP referral asks for review of her thyroid treatment."
+    ],
+    "actor": [
+      "If asked, Zoe has used the same levothyroxine dose for years but started iron six weeks ago.",
+      "She sometimes misses weekend doses and is concerned about a complicated schedule.",
+      "She has no severe acute symptoms."
+    ],
+    "key": [
+      "Investigate timing, adherence, recent changes and interacting products before recommending a dose change.",
+      "Ask for actual thyroid results, prior trend and the clinical indication/target; seek GP review and repeat testing after a consistent administration plan per current guidance.",
+      "Make the regimen workable for Zoe and explain why separation/consistency matters without prescribing a new dose independently.",
+      "Assess fatigue more broadly, including anaemia and other causes."
+    ],
+    "questions": [
+      "What is the likely medication-related problem?",
+      "What additional history and results do you need?",
+      "What would you recommend today?",
+      "How would you make the schedule workable?",
+      "How would you monitor whether the change helped?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "Zoe, 58 years · HMR referral",
+      "history": "Hypothyroidism; iron-deficiency anaemia; reflux",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Levothyroxine",
+          "100 micrograms daily with breakfast",
+          "Hypothyroidism"
+        ],
+        [
+          "Ferrous sulfate",
+          "325 mg daily with breakfast; started 6 weeks ago",
+          "Iron deficiency"
+        ],
+        [
+          "Pantoprazole",
+          "40 mg daily with breakfast",
+          "Reflux"
+        ],
+        [
+          "Calcium carbonate",
+          "600 mg occasionally with breakfast",
+          "Supplement"
+        ]
+      ],
+      "results": [
+        [
+          "TSH",
+          "Above local reference range; value not supplied",
+          "Recent GP test"
+        ],
+        [
+          "Haemoglobin",
+          "108 g/L",
+          "6 weeks ago"
+        ],
+        [
+          "Ferritin",
+          "12 micrograms/L",
+          "6 weeks ago"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "V05",
+    "type": "viva",
+    "title": "Depression, sleep and falls",
+    "topic": "Mental health",
+    "level": "High",
+    "brief": [
+      "HMR referral: Nola, 79, reports low mood and poor sleep after a bereavement. She has fallen twice in three months and is afraid of losing independence.",
+      "She says her antidepressant has not helped, but the start date and adherence are unclear. Diazepam is used most nights.",
+      "Her daughter fills a weekly medicine organiser."
+    ],
+    "actor": [
+      "If asked, Nola sometimes feels dizzy when rising and is sleepy in the morning.",
+      "She takes diazepam because she fears a sleepless night and does not want it stopped abruptly.",
+      "She denies immediate self-harm intent but says some days feel hopeless; a fuller risk assessment is needed."
+    ],
+    "key": [
+      "Assess immediate mental-health safety and falls risk, including sedation, orthostasis and environmental factors.",
+      "Review cumulative sedative/anticholinergic burden and possible medicine-related falls; avoid abrupt benzodiazepine cessation.",
+      "Clarify antidepressant duration, adherence, response, function and preferences before considering a change with GP.",
+      "Propose a collaborative, staged plan with monitoring, supports and follow-up."
+    ],
+    "questions": [
+      "Which issue is most urgent?",
+      "How would you assess depression response and safety?",
+      "Which medicines may contribute to falls?",
+      "How would you approach diazepam reduction?",
+      "Which other professionals or supports would you involve?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "Nola, 79 years · daughter fills a weekly medicine organiser",
+      "history": "Depression after bereavement; insomnia; overactive bladder; hypertension; two recent falls",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Sertraline",
+          "50 mg each morning; start date unclear",
+          "Depression"
+        ],
+        [
+          "Diazepam",
+          "5 mg at night; used most nights",
+          "Sleep"
+        ],
+        [
+          "Oxybutynin",
+          "5 mg twice daily",
+          "Overactive bladder"
+        ],
+        [
+          "Amlodipine",
+          "5 mg each morning",
+          "Hypertension"
+        ],
+        [
+          "Paracetamol/codeine",
+          "Strength and frequency unclear; occasional use",
+          "Pain"
+        ]
+      ],
+      "results": [
+        [
+          "Seated BP",
+          "128/72 mmHg",
+          "GP referral, 2 weeks ago"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "V06",
+    "type": "viva",
+    "title": "Asthma control and inhaler use",
+    "topic": "Respiratory",
+    "level": "Medium",
+    "brief": [
+      "HMR referral: James, 34, has asthma and allergic rhinitis. He has used a reliever on most days this month and wakes coughing twice a week.",
+      "His preventer refills have been irregular. He has no written asthma action plan.",
+      "He recently changed jobs and is exposed to dust."
+    ],
+    "actor": [
+      "If asked, James avoids the preventer because he dislikes its taste and is unsure whether it is needed when he feels well.",
+      "He can speak comfortably now and has no current severe breathlessness.",
+      "He wants a plan that fits a rotating shift schedule."
+    ],
+    "key": [
+      "Recognise poor control and assess current symptoms for urgent deterioration.",
+      "Check inhaler technique, actual use, device suitability, adherence barriers, triggers and rhinitis control before suggesting escalation.",
+      "Arrange prescriber review of controller regimen and a written action plan; counsel on monitoring and urgent warning signs.",
+      "Adapt the plan to shift work and patient preferences."
+    ],
+    "questions": [
+      "What indicates poor control?",
+      "What would you assess before a medicine change?",
+      "How do you check device technique?",
+      "What is your follow-up plan?",
+      "What symptoms require immediate escalation?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "James, 34 years · HMR-style medicines review",
+      "history": "Asthma; allergic rhinitis; new workplace dust exposure",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Budesonide/formoterol 200/6 inhaler",
+          "Prescribed 1 inhalation twice daily; refill history irregular",
+          "Asthma controller"
+        ],
+        [
+          "Salbutamol 100 micrograms inhaler",
+          "1–2 puffs as needed; reports use most days",
+          "Relief of symptoms"
+        ],
+        [
+          "Fluticasone nasal spray",
+          "1 spray in each nostril as needed",
+          "Allergic rhinitis"
+        ]
+      ],
+      "results": [
+        [
+          "Reliever use",
+          "Most days this month",
+          "Patient report"
+        ],
+        [
+          "Night waking",
+          "Twice weekly",
+          "Patient report"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "V07",
+    "type": "viva",
+    "title": "Chronic pain with liver and renal risk",
+    "topic": "Pain",
+    "level": "High",
+    "brief": [
+      "HMR referral: Tomas, 67, has knee osteoarthritis, compensated chronic liver disease, CKD and a history of peptic ulcer disease. Pain is limiting his walks.",
+      "He takes paracetamol from two different products and naproxen bought at a supermarket. He drinks alcohol on some weekends and cannot recall the daily amounts of his pain medicines.",
+      "The GP requests a pain management review."
+    ],
+    "actor": [
+      "If asked, Tomas often takes both paracetamol products on the same day without adding their doses.",
+      "He values walking to the shops and is open to non-medicine strategies.",
+      "No current gastrointestinal bleeding symptoms are reported, but these must be checked."
+    ],
+    "key": [
+      "Reconcile all products and total daily exposure before making a dosing recommendation.",
+      "Identify NSAID-related renal, gastrointestinal and cardiovascular concerns and assess bleeding/alarm symptoms.",
+      "Set function-based goals and consider non-drug support plus patient-specific medicine options with the GP, verified against current AMH/eTG and labs.",
+      "Plan monitoring and a clear follow-up rather than offering a generic analgesic switch."
+    ],
+    "questions": [
+      "Which risks make this case different from routine osteoarthritis?",
+      "What exactly must you ask about the OTC products?",
+      "How would you assess benefit?",
+      "Which non-drug options are realistic?",
+      "What would you communicate to the GP?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "Tomas, 67 years · HMR referral",
+      "history": "Knee osteoarthritis; compensated chronic liver disease; chronic kidney disease; previous peptic ulcer",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Paracetamol modified release",
+          "665 mg; prescribed 2 tablets three times daily",
+          "Knee pain"
+        ],
+        [
+          "Cold-and-flu product",
+          "Contains paracetamol; strength and use unknown",
+          "Self-selected"
+        ],
+        [
+          "Naproxen (self-selected)",
+          "Strength and frequency unknown",
+          "Knee pain"
+        ],
+        [
+          "Pantoprazole",
+          "40 mg each morning",
+          "Ulcer / reflux history"
+        ],
+        [
+          "Irbesartan",
+          "150 mg each morning",
+          "Hypertension"
+        ]
+      ],
+      "results": [
+        [
+          "eGFR",
+          "44 mL/min/1.73 m²",
+          "6 months ago"
+        ],
+        [
+          "ALT",
+          "48 U/L",
+          "6 months ago"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "V08",
+    "type": "viva",
+    "title": "Discharge list and duplicate therapy",
+    "topic": "Medicines safety",
+    "level": "High",
+    "brief": [
+      "HMR referral: Leila, 71, was discharged five days ago after an acute coronary syndrome. She has diabetes and hypertension and is confused by the new medicine list.",
+      "Her old weekly pack still contains medicines from before admission; she has been taking tablets from both the pack and new boxes.",
+      "She reports light-headedness."
+    ],
+    "actor": [
+      "If asked, Leila has the discharge paperwork and all medicine boxes at home.",
+      "She has no current chest pain, shortness of breath or bleeding, but would need urgent assessment if these appear.",
+      "Her preferred pharmacy can repack the medicines once the list is confirmed."
+    ],
+    "key": [
+      "Prioritise urgent reconciliation and assess symptoms/vitals; do not assume the old pack or discharge list alone is correct.",
+      "Identify potential duplication and omission, especially antiplatelet and statin regimen, and verify with discharge team/GP/pharmacy.",
+      "Create one confirmed current list, organise pack changes and teach Leila how to use it.",
+      "Monitor BP, pulse, bleeding and adverse effects with clear responsibilities and contingency advice."
+    ],
+    "questions": [
+      "How do you verify the intended regimen?",
+      "Which discrepancies matter most today?",
+      "What would you do with the existing pack?",
+      "How do you counsel on antiplatelet safety?",
+      "How will you confirm the problem is resolved?"
+    ],
+    "sources": [
+      "Australian Government, Guiding Principles for Medication Management in the Community",
+      "Course AMH/eTG and Viva rubric"
+    ],
+    "studentData": {
+      "patient": "Leila, 71 years · discharged 5 days ago after acute coronary syndrome",
+      "history": "Acute coronary syndrome; type 2 diabetes; hypertension; dyslipidaemia",
+      "allergies": "No medicine allergies documented",
+      "medications": [
+        [
+          "Aspirin",
+          "100 mg daily on discharge list",
+          "Antiplatelet"
+        ],
+        [
+          "Clopidogrel",
+          "75 mg daily on discharge list",
+          "Antiplatelet"
+        ],
+        [
+          "Atorvastatin",
+          "80 mg nightly on discharge list",
+          "Lipid lowering"
+        ],
+        [
+          "Metoprolol modified release",
+          "47.5 mg daily on discharge list",
+          "Cardiac therapy"
+        ],
+        [
+          "Amlodipine",
+          "10 mg daily in old weekly pack; current status unclear",
+          "Previous hypertension therapy"
+        ],
+        [
+          "Simvastatin",
+          "40 mg nightly in old weekly pack; current status unclear",
+          "Previous lipid therapy"
+        ],
+        [
+          "Metformin",
+          "500 mg twice daily on pre-admission list; current status unclear",
+          "Diabetes"
+        ]
+      ],
+      "results": [
+        [
+          "Discharge BP",
+          "118/68 mmHg",
+          "5 days ago"
+        ],
+        [
+          "Discharge pulse",
+          "64 beats/min",
+          "5 days ago"
+        ],
+        [
+          "Discharge eGFR",
+          "61 mL/min/1.73 m²",
+          "5 days ago"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "O01",
+    "type": "osce1",
+    "title": "A child's spreading skin lesions",
+    "topic": "Skin / extended scope",
+    "level": "Medium",
+    "brief": [
+      "You are the pharmacist. A parent asks for something for their 6-year-old child's yellow-crusted sores around the nose. The child is at school and is not present.",
+      "Manage the presentation, including whether it can be handled in your setting and what the parent should do next."
+    ],
+    "actor": [
+      "Child weighs about 21 kg; parent can confirm exact weight. Lesions began four days ago and have spread from one to several spots.",
+      "No fever, lethargy or rapidly spreading redness. No known medicine allergies; no regular medicines or chronic conditions.",
+      "A sibling has a similar lesion. Parent is worried about school attendance and wants antibiotics immediately."
+    ],
+    "key": [
+      "Confirm who the patient is, age/weight, history, medicines, conditions and allergy/adverse effects.",
+      "Assess distribution, severity, systemic signs, alternatives and eligibility/referral criteria in the current Queensland Health impetigo guideline.",
+      "Discuss appropriate hygiene, spread prevention, treatment or referral according to scope, and school/daycare advice from current local guidance.",
+      "Give a clear beneficial outcome, review point and safety net if fever, worsening redness or poor response."
+    ],
+    "questions": [
+      "What would make this presentation outside scope?",
+      "How would you discuss antibiotic stewardship with the parent?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: impetigo (supplied PDF p. 97)"
+    ]
+  },
+  {
+    "id": "O02",
+    "type": "osce1",
+    "title": "Shingles near the eye",
+    "topic": "Skin / extended scope",
+    "level": "High",
+    "brief": [
+      "A 62-year-old asks for a cream for a painful blistering rash on one side of the forehead. They say it started yesterday.",
+      "Manage the request in a 10-minute pharmacy consultation."
+    ],
+    "actor": [
+      "If asked, the rash extends to the eyelid and the eye feels gritty; vision seems slightly blurred.",
+      "The patient takes no regular medicines and reports no allergies. They had chickenpox as a child.",
+      "They hope to avoid a doctor because of work commitments."
+    ],
+    "key": [
+      "Identify possible ocular involvement and arrange urgent medical/eye assessment rather than routine pharmacy treatment.",
+      "Clarify onset, rash distribution, eye/neurological symptoms, immune status, pregnancy, medicines and allergies.",
+      "Explain the urgency in patient-centred terms and help them access care now.",
+      "Counsel on avoiding contact with vulnerable people and give a contingency plan using current guidance."
+    ],
+    "questions": [
+      "Which features change the referral urgency?",
+      "How would you respond if the patient declines referral?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: herpes zoster (supplied PDF p. 71)"
+    ]
+  },
+  {
+    "id": "O03",
+    "type": "osce1",
+    "title": "Painful swimmer's ear",
+    "topic": "Ear / extended scope",
+    "level": "Medium",
+    "brief": [
+      "A 28-year-old swimmer asks for ear drops because the right ear hurts after several days at the pool.",
+      "Assess and manage the request."
+    ],
+    "actor": [
+      "Pain is worse when the outer ear is moved; there is mild itch and scant discharge.",
+      "No fever, severe pain, dizziness or facial weakness. No diabetes or immunosuppression. No known allergies; no regular medicines.",
+      "They used a cotton bud yesterday and are unsure whether the eardrum is intact."
+    ],
+    "key": [
+      "Confirm patient and full critical history; assess red flags, tympanic membrane concerns and differential diagnosis.",
+      "Use the current otitis externa guideline to determine examination, eligibility and treatment/referral requirements.",
+      "Explain ear care, correct use of any chosen treatment, water avoidance and when to return.",
+      "Avoid selecting a potentially unsuitable drop without checking eardrum status and guideline restrictions."
+    ],
+    "questions": [
+      "What would make you refer rather than treat?",
+      "How does possible perforation alter the choice?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: acute otitis externa (supplied PDF p. 33)"
+    ]
+  },
+  {
+    "id": "O04",
+    "type": "osce1",
+    "title": "Hay fever that is not controlled",
+    "topic": "Respiratory / extended scope",
+    "level": "Easy",
+    "brief": [
+      "A 23-year-old wants a stronger product for daily sneezing and a blocked nose. A non-sedating antihistamine has helped only a little.",
+      "Provide a patient-centred pharmacy consultation."
+    ],
+    "actor": [
+      "Symptoms occur most days in spring, with itchy eyes. No fever, unilateral bleeding or facial pain.",
+      "They tried a nasal corticosteroid for two days, then stopped because it seemed ineffective. They are not pregnant, take no other medicines and have no known allergies.",
+      "They need to stay alert while driving for work."
+    ],
+    "key": [
+      "Confirm symptoms and consider allergic versus nonallergic rhinitis and red flags.",
+      "Check how prior medicines were used, technique and adequate trial before recommending a change.",
+      "Discuss suitable options, onset/expectations, technique, non-drug measures and driving preference using current guideline.",
+      "Set a review point and escalation criteria."
+    ],
+    "questions": [
+      "What changes your diagnosis?",
+      "How would you check nasal spray technique?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: rhinitis (supplied PDF p. 54)"
+    ]
+  },
+  {
+    "id": "O05",
+    "type": "osce1",
+    "title": "Reflux with an alarm feature",
+    "topic": "Gastrointestinal / extended scope",
+    "level": "High",
+    "brief": [
+      "A 54-year-old asks for omeprazole for worsening heartburn. They have taken antacids for months.",
+      "Assess the presentation and decide what happens today."
+    ],
+    "actor": [
+      "On questioning, food has recently felt stuck when swallowing and they have lost weight without trying.",
+      "They use ibuprofen several days a week for back pain. No known allergies; no other medicines reported.",
+      "They want a quick product because they are travelling soon."
+    ],
+    "key": [
+      "Elicit dysphagia and weight loss and arrange timely medical assessment; do not simply supply symptom suppression.",
+      "Review duration, severity, bleeding symptoms, medicines, red flags and alternative diagnoses.",
+      "Explain the reason for referral clearly and assist with access; discuss interim measures within safe scope.",
+      "Document advice and give escalation instructions for severe or worsening symptoms."
+    ],
+    "questions": [
+      "Which symptoms are alarm features?",
+      "How does ibuprofen affect the assessment?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: GORD (supplied PDF p. 63)"
+    ]
+  },
+  {
+    "id": "O06",
+    "type": "osce1",
+    "title": "Vomiting and reduced urine",
+    "topic": "Gastrointestinal / extended scope",
+    "level": "High",
+    "brief": [
+      "A parent asks for a medicine to stop their 2-year-old's vomiting after a day of gastroenteritis symptoms.",
+      "Manage the request."
+    ],
+    "actor": [
+      "The child weighs 12 kg, has vomited repeatedly and has had few wet nappies today. The parent says the child is less active than usual.",
+      "There is no blood in vomit or stool. The child has no known allergies, regular medicines or major conditions.",
+      "The parent has tried small sips of juice but they have not stayed down."
+    ],
+    "key": [
+      "Confirm age/weight, hydration status, frequency/duration, red flags, medicines, conditions and allergy/adverse effects.",
+      "Recognise reduced urine and reduced activity as concerning; arrange prompt medical assessment rather than an automatic antiemetic supply.",
+      "Explain appropriate oral rehydration advice only if safe while care is accessed, and what signs warrant urgent escalation.",
+      "Address the parent's immediate practical concern and help arrange a beneficial outcome."
+    ],
+    "questions": [
+      "How do you assess dehydration?",
+      "What would change the urgency?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: acute nausea/vomiting (supplied PDF p. 22)"
+    ]
+  },
+  {
+    "id": "O07",
+    "type": "osce1",
+    "title": "Knee pain and an NSAID request",
+    "topic": "Pain / extended scope",
+    "level": "Medium",
+    "brief": [
+      "A 72-year-old asks for a strong anti-inflammatory tablet for a painful knee after gardening yesterday.",
+      "Assess and manage the request."
+    ],
+    "actor": [
+      "No major injury, fever, inability to bear weight or hot swollen joint. They have CKD and take an ARB and a diuretic.",
+      "They used ibuprofen yesterday and had dizziness on standing today. No known medicine allergies.",
+      "Their goal is to walk comfortably to the shops next week."
+    ],
+    "key": [
+      "Confirm patient, injury mechanism, pain features, function, red flags and complete medicine/condition/allergy history.",
+      "Identify renal/dehydration concerns with oral NSAIDs in this patient; assess dizziness and whether medical review is needed.",
+      "Discuss patient-specific non-drug and medicine options only after checking current AMH/guideline, and support the functional goal.",
+      "Safety-net for worsening pain, swelling, systemic symptoms or reduced urine."
+    ],
+    "questions": [
+      "Which medicines and conditions change analgesic choice?",
+      "What would make this an urgent referral?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: mild acute musculoskeletal pain (supplied PDF p. 123)"
+    ]
+  },
+  {
+    "id": "O08",
+    "type": "osce1",
+    "title": "Contraception continuation request",
+    "topic": "Women's health / extended scope",
+    "level": "High",
+    "brief": [
+      "A 29-year-old asks for a continuation of their combined oral contraceptive prescription because their GP appointment is in three weeks.",
+      "Conduct the consultation and decide on a safe plan."
+    ],
+    "actor": [
+      "They have taken the same pill for two years. They report episodes of visual zig-zags followed by headache in the past six months, but have not mentioned them to a clinician.",
+      "No current pregnancy symptoms; one pill was missed last week. They do not smoke and take no other medicines. No known allergies.",
+      "They are anxious about a gap in contraception."
+    ],
+    "key": [
+      "Assess pregnancy risk, missed pills, relevant medical history, BP, migraine symptoms, contraindications and current guideline eligibility.",
+      "Recognise possible migraine with aura as a safety concern for combined hormonal contraception and refer for appropriate review rather than routine continuation.",
+      "Address immediate contraception needs with guideline-consistent interim advice, including emergency contraception assessment if indicated.",
+      "Use shared decision making and clear follow-up."
+    ],
+    "questions": [
+      "Which history changes eligibility?",
+      "How do you avoid leaving the patient without a contraception plan?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: hormonal contraception (supplied PDF p. 81)"
+    ]
+  },
+  {
+    "id": "O09",
+    "type": "osce1",
+    "title": "New antibiotic with warfarin",
+    "topic": "Prescription / medicines safety",
+    "level": "High",
+    "brief": [
+      "You are the pharmacist. Evelyn, 74, presents a prescription from Dr M. Patel for clarithromycin 500 mg tablets: take one tablet every 12 hours for 7 days; quantity 14, no repeats. The prescription states “chest infection”.",
+      "The dispensing record shows warfarin with a variable dose managed by an INR clinic. Evelyn asks to collect the antibiotic quickly and leave.",
+      "Assess the prescription and the person, then explain and carry out a safe plan."
+    ],
+    "actor": [
+      "If asked, Evelyn takes variable warfarin doses and has not had an INR for about three weeks. She has not yet told the INR clinic about this prescription.",
+      "She has a cough but no fever, severe breathlessness or chest pain. She noticed mild blood in her urine today; ask further about bleeding and escalation.",
+      "She has no known medicine allergies and also takes perindopril 5 mg daily and atorvastatin 20 mg nightly."
+    ],
+    "key": [
+      "Confirm patient, indication, symptoms, medicine history, medical conditions and allergies; assess haematuria and other urgent features.",
+      "Check clarithromycin with warfarin and other current medicines in AMH/eTG, and contact the prescriber and INR service for a coordinated antibiotic and monitoring plan before supply.",
+      "Explain the safety concern and next steps respectfully; do not independently alter warfarin dosing without a supported plan.",
+      "Provide clear bleeding and infection safety-net advice and document the outcome."
+    ],
+    "questions": [
+      "What information do you need from the prescription?",
+      "Who do you contact and what do you say?"
+    ],
+    "sources": [
+      "Course AMH/eTG and OSCE rubric",
+      "Australian Government, Guiding Principles for Medication Management in the Community"
+    ]
+  },
+  {
+    "id": "O10",
+    "type": "osce1",
+    "title": "Eczema flare or infection?",
+    "topic": "Skin / extended scope",
+    "level": "Medium",
+    "brief": [
+      "An adult with known atopic dermatitis asks for a stronger steroid because a patch on the forearm has become very red and weepy.",
+      "Assess and manage the request."
+    ],
+    "actor": [
+      "The patch is more painful than usual and has honey-coloured crusting. There is no fever or rapidly spreading redness.",
+      "They use an emollient inconsistently and a mild topical corticosteroid. No other medicines or known allergies.",
+      "They have a family event and want it improved quickly."
+    ],
+    "key": [
+      "Clarify whether this is a simple flare, secondary infection or another diagnosis and assess extent/systemic symptoms.",
+      "Check medicine use, application technique, previous response and guideline eligibility.",
+      "Avoid simply escalating steroid potency without addressing possible infection and referral/treatment requirements.",
+      "Explain skin care, treatment plan, infection precautions, follow-up and safety net."
+    ],
+    "questions": [
+      "What clues suggest secondary infection?",
+      "How would you counsel on emollients and topical therapy?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: atopic dermatitis (supplied PDF p. 140)"
+    ]
+  },
+  {
+    "id": "O11",
+    "type": "osce1",
+    "title": "Psoriasis flare on sensitive sites",
+    "topic": "Skin / extended scope",
+    "level": "Medium",
+    "brief": [
+      "A 46-year-old with known plaque psoriasis requests a repeat of the strong steroid they previously used on elbows. They now have a rash on the face and groin.",
+      "Conduct the consultation."
+    ],
+    "actor": [
+      "The facial/groin rash is new and has not been diagnosed. They also describe new painful swollen fingers in the morning.",
+      "No fever. They use a topical steroid intermittently and take no other regular medicines. No known allergies.",
+      "They are embarrassed by the rash and want a discreet plan."
+    ],
+    "key": [
+      "Establish site, diagnosis certainty, extent, previous treatments and symptoms of psoriatic arthritis.",
+      "Recognise sensitive-site and joint concerns that need medical assessment; avoid routine use of a potent steroid there.",
+      "Respect privacy, explain referral and interim skin care within scope.",
+      "Plan follow-up and urgent escalation for severe or rapidly worsening symptoms."
+    ],
+    "questions": [
+      "Which features change scope?",
+      "How do you address privacy and patient preference?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: mild plaque psoriasis (supplied PDF p. 1)"
+    ]
+  },
+  {
+    "id": "O12",
+    "type": "osce1",
+    "title": "Smoking cessation with a treatment preference",
+    "topic": "Prevention / extended scope",
+    "level": "Easy",
+    "brief": [
+      "A 41-year-old asks for help quitting smoking before a planned surgery in eight weeks. They want to know whether nicotine replacement might help.",
+      "Run a 10-minute patient-centred consultation."
+    ],
+    "actor": [
+      "They smoke about 15 cigarettes a day and usually light the first within 30 minutes of waking. They tried quitting once and relapsed during a stressful week.",
+      "They take sertraline, have no known allergies, are not pregnant and prefer a plan they can afford.",
+      "Their partner smokes at home but is willing to support a quit attempt."
+    ],
+    "key": [
+      "Assess readiness, dependence, prior attempts, triggers, medical/medicine history and treatment preferences.",
+      "Use current guideline to discuss behavioural support and suitable pharmacotherapy; verify product, dose and precautions in AMH before recommending.",
+      "Set a quit date or next step, practical support and a follow-up plan.",
+      "Discuss smoke exposure and relapse as part of learning, not failure."
+    ],
+    "questions": [
+      "What would shape product choice?",
+      "How would you support a relapse?"
+    ],
+    "sources": [
+      "Queensland Health acute condition guideline: smoking cessation (supplied PDF p. 166)"
+    ]
+  },
+  {
+    "id": "C01",
+    "type": "osce2",
+    "title": "Lost opioid dose, distressed patient",
+    "topic": "Supply and boundaries",
+    "level": "High",
+    "brief": [
+      "A patient on a supervised opioid treatment program says they lost today's dose and demands a replacement immediately. They are visibly distressed and raising their voice.",
+      "Respond as the pharmacist. Focus on communication and professional responsibilities."
+    ],
+    "actor": [
+      "The patient is worried about withdrawal and missing work. They calm somewhat if you acknowledge this and speak privately.",
+      "They say the dose was lost on the bus. They do not have a replacement authority or confirmed direction from the prescriber.",
+      "They resist being told to 'just call tomorrow' but will accept a concrete plan for today."
+    ],
+    "key": [
+      "Listen and acknowledge the patient's distress and immediate goal; move to a private, safe space if possible.",
+      "Avoid promising or supplying a replacement outside the applicable program and legal requirements; verify records and contact the authorised prescriber/service.",
+      "Explain what can be done now, discuss urgent clinical support if withdrawal or safety concerns arise, and agree on next steps.",
+      "Maintain calm, respectful boundaries and document the interaction."
+    ],
+    "questions": [
+      "How would you state the boundary without sounding accusatory?",
+      "What is the practical plan if the prescriber cannot be reached?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric",
+      "Queensland Health QScript and medicines guidance"
+    ]
+  },
+  {
+    "id": "C02",
+    "type": "osce2",
+    "title": "Parent angry about no antibiotic",
+    "topic": "Difficult conversation",
+    "level": "Medium",
+    "brief": [
+      "A parent says, 'The last pharmacist gave my child antibiotics. Why won't you? You're wasting my time.' The child has a cold-like illness and the parent is frustrated.",
+      "Respond as the pharmacist."
+    ],
+    "actor": [
+      "The parent is worried because the child missed school and they have missed work.",
+      "They will describe symptoms if asked calmly. They have not been given a clear reason why antibiotics may be unsuitable.",
+      "They are willing to consider a safety-net plan if they feel heard."
+    ],
+    "key": [
+      "Find the parent's goal and concern before giving an explanation.",
+      "Use plain language and avoid criticising the prior clinician; assess red flags and offer appropriate evaluation or referral.",
+      "Explain antibiotic stewardship and symptomatic options in a way responsive to the child's presentation.",
+      "Agree on what to watch for, when to seek care and how to access it."
+    ],
+    "questions": [
+      "How would you repair rapport after the opening statement?",
+      "What if the child appears unwell?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric",
+      "Queensland Health antimicrobial stewardship guidance"
+    ]
+  },
+  {
+    "id": "C03",
+    "type": "osce2",
+    "title": "Family member asks for private results",
+    "topic": "Privacy and consent",
+    "level": "Medium",
+    "brief": [
+      "A patient's adult daughter asks you to tell her what new medicine her father collected and why. She says she always helps him and becomes offended when you hesitate.",
+      "Respond as the pharmacist."
+    ],
+    "actor": [
+      "The daughter is genuinely worried and says he has become forgetful.",
+      "No consent or legal authority to share his record is documented. The patient is not present.",
+      "She is open to asking him to join a conversation if the offer is respectful."
+    ],
+    "key": [
+      "Acknowledge concern and explain confidentiality in plain language without disclosing patient-specific information.",
+      "Explore whether consent/authority can be established and offer to speak together with the patient or arrange a supported review.",
+      "Address immediate safety concerns through an appropriate route without unnecessary disclosure.",
+      "Remain warm and firm; avoid implying the daughter has done something wrong."
+    ],
+    "questions": [
+      "What can you say without revealing private details?",
+      "What if she reports an immediate safety risk?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric",
+      "Queensland Health professional practice guidance"
+    ]
+  },
+  {
+    "id": "C04",
+    "type": "osce2",
+    "title": "Dispensing error disclosed",
+    "topic": "Error and accountability",
+    "level": "High",
+    "brief": [
+      "A patient returns after noticing that the medicine in their bag has a different strength from the label. They are frightened and ask whether they have been harmed.",
+      "Respond as the pharmacist."
+    ],
+    "actor": [
+      "They took one dose last night but have no current symptoms. They are worried the pharmacy will hide the mistake.",
+      "The product and prescription need verification before giving a risk assessment.",
+      "They want a clear explanation and to know what happens next."
+    ],
+    "key": [
+      "Respond promptly, apologise appropriately and assess immediate clinical risk; do not speculate before checking facts.",
+      "Verify prescription, product, dose taken and patient factors; arrange urgent clinical advice if indicated.",
+      "Explain the corrected supply and follow-up, documentation, incident process and who will contact them.",
+      "Be honest, calm and accountable without shifting blame."
+    ],
+    "questions": [
+      "What do you do first?",
+      "How do you communicate uncertainty honestly?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric",
+      "Queensland Health professional practice guidance"
+    ]
+  },
+  {
+    "id": "C05",
+    "type": "osce2",
+    "title": "Prescriber challenges your concern",
+    "topic": "Interprofessional communication",
+    "level": "Medium",
+    "brief": [
+      "You phone a prescriber about a potential medicine interaction. They say, 'I've prescribed this for years. Just dispense it.' You still have a patient-safety concern.",
+      "Respond as the pharmacist."
+    ],
+    "actor": [
+      "The prescriber is pressed for time and has not heard the specific patient factors.",
+      "They become more receptive if you state the concrete risk, relevant evidence and a workable option succinctly.",
+      "They can agree to a monitoring plan or alternative if discussed clearly."
+    ],
+    "key": [
+      "Stay respectful and assert the patient-specific concern clearly, using structured communication.",
+      "State what is known, what needs checking and a practical recommendation or monitoring option.",
+      "Confirm the agreed plan, responsibility, timing and documentation before supply.",
+      "Escalate through appropriate clinical channels if a serious safety issue remains unresolved."
+    ],
+    "questions": [
+      "How would you phrase the concern in 30 seconds?",
+      "What if they still refuse to engage?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric",
+      "Queensland Health professional practice guidance"
+    ]
+  },
+  {
+    "id": "C06",
+    "type": "osce2",
+    "title": "Cost blocks the agreed plan",
+    "topic": "Access and shared decisions",
+    "level": "Easy",
+    "brief": [
+      "A patient says the medicine you recommended is unaffordable and that previous pharmacists have made them feel judged. They are about to leave without treatment.",
+      "Respond as the pharmacist."
+    ],
+    "actor": [
+      "They can pay for a less expensive option but do not want to disclose personal finances at the counter.",
+      "They are open to discussing alternatives in private and appreciate a written simple plan.",
+      "Their main goal is symptom relief while staying within budget."
+    ],
+    "key": [
+      "Acknowledge the concern without judgement and offer privacy.",
+      "Clarify the patient's goal and constraints, then explore clinically appropriate alternatives, subsidies or referral where relevant.",
+      "Check understanding and agree on an affordable, safe next step.",
+      "Avoid promising equivalence before checking the medicine and indication."
+    ],
+    "questions": [
+      "How do you invite a cost discussion respectfully?",
+      "What if no affordable safe option is available today?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric"
+    ]
+  },
+  {
+    "id": "C07",
+    "type": "osce2",
+    "title": "Patient refuses urgent referral",
+    "topic": "Autonomy and safety",
+    "level": "High",
+    "brief": [
+      "You have advised urgent medical review for a concerning symptom. The patient says, 'I'm not going to hospital. I had a terrible experience there.'",
+      "Respond as the pharmacist."
+    ],
+    "actor": [
+      "They fear being dismissed and leaving their child without care. They will explain these barriers if asked.",
+      "They can understand information and make their own decision. Their symptoms still need urgent assessment.",
+      "They may accept an alternative urgent care pathway or support person if options are discussed."
+    ],
+    "key": [
+      "Listen to the previous experience and barriers, then explain the specific concern and urgency in plain language.",
+      "Respect autonomy while checking understanding and capacity; offer practical ways to access appropriate urgent care.",
+      "Give clear safety-net advice if they decline and document the discussion.",
+      "Do not use threats, blame or false reassurance."
+    ],
+    "questions": [
+      "What do you say if they continue to decline?",
+      "How would you address the childcare barrier?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric",
+      "Queensland Health professional practice guidance"
+    ]
+  },
+  {
+    "id": "C08",
+    "type": "osce2",
+    "title": "Colleague bypasses an allergy alert",
+    "topic": "Speaking up",
+    "level": "Medium",
+    "brief": [
+      "A busy colleague says an allergy alert is probably wrong and asks you to hand over the prescription without checking. The patient is waiting and the queue is growing.",
+      "Respond to the colleague and protect the patient."
+    ],
+    "actor": [
+      "The colleague is stressed, not hostile, and thinks the recorded reaction was only nausea.",
+      "The actual reaction and medicine have not yet been verified with the patient or record.",
+      "They will agree to a brief safety check if you propose a quick clear process."
+    ],
+    "key": [
+      "Speak up calmly and stop an unsafe handover until the alert is clarified.",
+      "Verify the patient, medicine and reaction history; distinguish allergy from adverse effect and involve the prescriber if needed.",
+      "Explain the brief delay to the patient without blaming a colleague.",
+      "Confirm and document the final plan while maintaining teamwork."
+    ],
+    "questions": [
+      "How do you phrase the challenge to your colleague?",
+      "What if the reaction turns out to be severe?"
+    ],
+    "sources": [
+      "Course OSCE Station 2 rubric",
+      "Queensland Health professional practice guidance"
+    ]
+  }
+]

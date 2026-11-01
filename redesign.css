@@ -1,0 +1,23 @@
+.mode-intro{margin:10px 0 26px}
+.mode-intro h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(38px,5vw,58px);line-height:1.08;letter-spacing:-.05em;margin:10px 0}
+.mode-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.mode-card{min-height:310px;border:0;border-radius:24px;padding:30px;text-align:left;background:var(--navy);color:#fff;display:flex;flex-direction:column;align-items:flex-start;box-shadow:var(--shadow);transition:transform .15s,box-shadow .15s}
+.mode-card:nth-child(2){background:#e2f0e8;color:var(--navy)}
+.mode-card:hover{transform:translateY(-3px);box-shadow:0 20px 42px rgba(15,49,58,.15)}
+.mode-num{text-transform:uppercase;font-size:11px;font-weight:800;letter-spacing:.15em;color:var(--mint)}
+.mode-card:nth-child(2) .mode-num{color:var(--teal)}
+.mode-title{font-family:Georgia,serif;font-size:clamp(48px,6vw,76px);line-height:1.05;letter-spacing:-.055em;margin:30px 0 14px}
+.mode-description{max-width:370px;font-size:15px;line-height:1.5;color:#d1e2df}
+.mode-card:nth-child(2) .mode-description{color:#4d6e68}
+.mode-cta{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:auto;padding-top:26px;width:100%;font-weight:800;font-size:13px}
+.mode-cta span{display:grid;place-items:center;border-radius:50%;width:34px;height:34px;background:var(--mint);color:var(--navy);font-size:17px}
+.mode-card:nth-child(2) .mode-cta span{background:var(--navy);color:#fff}
+.bank-section{margin-top:26px;border:1px solid var(--line);border-radius:18px;background:#fff;overflow:hidden}
+.bank-toggle{width:100%;padding:21px 25px;border:0;background:#fff;color:var(--navy);display:flex;align-items:center;justify-content:space-between;text-align:left;font-size:15px;font-weight:800}
+.bank-toggle span:last-child{font-size:25px;font-weight:400;line-height:1;color:var(--teal)}
+.bank-content{padding:0 25px 25px}
+.bank-content .toolbar{margin-top:4px}
+.bank-content .case-card{background:#fbfcfa}
+.bank-content .minor{margin:17px 0 0}
+@media(max-width:850px){.mode-grid{grid-template-columns:1fr}.mode-card{min-height:250px}.mode-title{margin-top:18px}.mode-intro{margin-top:0}}
+@media(max-width:560px){.mode-card{padding:25px;min-height:245px}.mode-title{font-size:58px}.mode-intro h1{font-size:42px}}
