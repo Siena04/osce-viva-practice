@@ -49,6 +49,11 @@ main{width:min(1360px,100%);padding:28px clamp(18px,4vw,52px) 60px}
 .roleplay-panel{margin-bottom:15px}
 .roleplay-panel p{font-size:13px;line-height:1.5;color:#615b66;margin:0}
 .roleplay-panel .minor{margin-top:12px}
+.viva-task{margin-bottom:15px;border-left:4px solid #51247a}
+.viva-task p{font-size:16px;line-height:1.5;margin:0 0 16px}
+.isbar-steps{display:flex;flex-wrap:wrap;gap:8px}
+.isbar-steps span{background:#f1eaf6;color:#51247a;padding:8px 10px;font-size:12px;font-weight:600}
+.isbar-steps strong{font-size:15px;margin-right:5px}
 .detail-hero .eyebrow,.timer-top .eyebrow{color:#e7d9f0}
 .detail-hero p,.timer-top .phase-name{color:#f0eaf5}
 .detail-layout.viva-layout{grid-template-columns:minmax(0,2fr) minmax(240px,.65fr)}

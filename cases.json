@@ -3,6 +3,7 @@
     "id": "V01",
     "type": "viva",
     "title": "Warfarin, infection and bruising",
+    "displayTitle": "The medicines Mara manages",
     "topic": "Cardiovascular",
     "level": "High",
     "brief": [
@@ -81,6 +82,7 @@
     "id": "V02",
     "type": "viva",
     "title": "Diabetes, CKD and a recent illness",
+    "displayTitle": "Ravi’s simpler routine",
     "topic": "Endocrine",
     "level": "High",
     "brief": [
@@ -164,6 +166,7 @@
     "id": "V03",
     "type": "viva",
     "title": "Heart failure, blood pressure and ibuprofen",
+    "displayTitle": "Elaine’s changing week",
     "topic": "Cardiovascular",
     "level": "Medium",
     "brief": [
@@ -242,6 +245,7 @@
     "id": "V04",
     "type": "viva",
     "title": "Thyroid replacement and administration",
+    "displayTitle": "Zoe’s morning routine",
     "topic": "Endocrine",
     "level": "Medium",
     "brief": [
@@ -320,6 +324,7 @@
     "id": "V05",
     "type": "viva",
     "title": "Depression, sleep and falls",
+    "displayTitle": "Nola’s difficult nights",
     "topic": "Mental health",
     "level": "High",
     "brief": [
@@ -393,6 +398,7 @@
     "id": "V06",
     "type": "viva",
     "title": "Asthma control and inhaler use",
+    "displayTitle": "James’s breathing diary",
     "topic": "Respiratory",
     "level": "Medium",
     "brief": [
@@ -461,6 +467,7 @@
     "id": "V07",
     "type": "viva",
     "title": "Chronic pain with liver and renal risk",
+    "displayTitle": "Tomas’s daily walks",
     "topic": "Pain",
     "level": "High",
     "brief": [
@@ -539,6 +546,7 @@
     "id": "V08",
     "type": "viva",
     "title": "Discharge list and duplicate therapy",
+    "displayTitle": "Leila’s new medicine list",
     "topic": "Medicines safety",
     "level": "High",
     "brief": [
@@ -632,6 +640,7 @@
     "id": "O01",
     "type": "osce1",
     "title": "A child's spreading skin lesions",
+    "displayTitle": "A question about school",
     "topic": "Skin / extended scope",
     "level": "Medium",
     "brief": [
@@ -661,6 +670,7 @@
     "id": "O02",
     "type": "osce1",
     "title": "Shingles near the eye",
+    "displayTitle": "The rash on the forehead",
     "topic": "Skin / extended scope",
     "level": "High",
     "brief": [
@@ -690,6 +700,7 @@
     "id": "O03",
     "type": "osce1",
     "title": "Painful swimmer's ear",
+    "displayTitle": "After a week at the pool",
     "topic": "Ear / extended scope",
     "level": "Medium",
     "brief": [
@@ -719,6 +730,7 @@
     "id": "O04",
     "type": "osce1",
     "title": "Hay fever that is not controlled",
+    "displayTitle": "Looking for stronger relief",
     "topic": "Respiratory / extended scope",
     "level": "Easy",
     "brief": [
@@ -748,6 +760,7 @@
     "id": "O05",
     "type": "osce1",
     "title": "Reflux with an alarm feature",
+    "displayTitle": "A familiar request, new details",
     "topic": "Gastrointestinal / extended scope",
     "level": "High",
     "brief": [
@@ -777,6 +790,7 @@
     "id": "O06",
     "type": "osce1",
     "title": "Vomiting and reduced urine",
+    "displayTitle": "An unwell toddler",
     "topic": "Gastrointestinal / extended scope",
     "level": "High",
     "brief": [
@@ -806,6 +820,7 @@
     "id": "O07",
     "type": "osce1",
     "title": "Knee pain and an NSAID request",
+    "displayTitle": "The morning after gardening",
     "topic": "Pain / extended scope",
     "level": "Medium",
     "brief": [
@@ -835,6 +850,7 @@
     "id": "O08",
     "type": "osce1",
     "title": "Contraception continuation request",
+    "displayTitle": "A gap before the GP visit",
     "topic": "Women's health / extended scope",
     "level": "High",
     "brief": [
@@ -864,6 +880,7 @@
     "id": "O09",
     "type": "osce1",
     "title": "New antibiotic with warfarin",
+    "displayTitle": "A prescription to check",
     "topic": "Prescription / medicines safety",
     "level": "High",
     "brief": [
@@ -895,6 +912,7 @@
     "id": "O10",
     "type": "osce1",
     "title": "Eczema flare or infection?",
+    "displayTitle": "A patch that has changed",
     "topic": "Skin / extended scope",
     "level": "Medium",
     "brief": [
@@ -924,6 +942,7 @@
     "id": "O11",
     "type": "osce1",
     "title": "Psoriasis flare on sensitive sites",
+    "displayTitle": "The cream from last time",
     "topic": "Skin / extended scope",
     "level": "Medium",
     "brief": [
@@ -953,6 +972,7 @@
     "id": "O12",
     "type": "osce1",
     "title": "Smoking cessation with a treatment preference",
+    "displayTitle": "Eight weeks to prepare",
     "topic": "Prevention / extended scope",
     "level": "Easy",
     "brief": [
@@ -982,6 +1002,7 @@
     "id": "C01",
     "type": "osce2",
     "title": "Lost opioid dose, distressed patient",
+    "displayTitle": "The missing dose",
     "topic": "Supply and boundaries",
     "level": "High",
     "brief": [
@@ -1012,6 +1033,7 @@
     "id": "C02",
     "type": "osce2",
     "title": "Parent angry about no antibiotic",
+    "displayTitle": "The frustrated parent",
     "topic": "Difficult conversation",
     "level": "Medium",
     "brief": [
@@ -1042,6 +1064,7 @@
     "id": "C03",
     "type": "osce2",
     "title": "Family member asks for private results",
+    "displayTitle": "A family request",
     "topic": "Privacy and consent",
     "level": "Medium",
     "brief": [
@@ -1072,6 +1095,7 @@
     "id": "C04",
     "type": "osce2",
     "title": "Dispensing error disclosed",
+    "displayTitle": "A different strength",
     "topic": "Error and accountability",
     "level": "High",
     "brief": [
@@ -1102,6 +1126,7 @@
     "id": "C05",
     "type": "osce2",
     "title": "Prescriber challenges your concern",
+    "displayTitle": "The difficult phone call",
     "topic": "Interprofessional communication",
     "level": "Medium",
     "brief": [
@@ -1132,6 +1157,7 @@
     "id": "C06",
     "type": "osce2",
     "title": "Cost blocks the agreed plan",
+    "displayTitle": "A plan they can afford",
     "topic": "Access and shared decisions",
     "level": "Easy",
     "brief": [
@@ -1161,6 +1187,7 @@
     "id": "C07",
     "type": "osce2",
     "title": "Patient refuses urgent referral",
+    "displayTitle": "An urgent conversation",
     "topic": "Autonomy and safety",
     "level": "High",
     "brief": [
@@ -1191,6 +1218,7 @@
     "id": "C08",
     "type": "osce2",
     "title": "Colleague bypasses an allergy alert",
+    "displayTitle": "A concern at the counter",
     "topic": "Speaking up",
     "level": "Medium",
     "brief": [
