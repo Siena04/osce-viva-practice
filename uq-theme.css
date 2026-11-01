@@ -44,6 +44,11 @@ main{width:min(1360px,100%);padding:28px clamp(18px,4vw,52px) 60px}
 .detail-hero,.timer-panel{background:#51247a;border-radius:4px;box-shadow:var(--shadow)}
 .detail-hero h1,.session-brief h2{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:0}
 .session-brief .case-subheading{margin:-5px 0 18px;color:#5f5369;font-size:13px;font-weight:600}
+.copy-options{display:flex;flex-wrap:wrap;gap:9px;margin-top:15px}
+.copy-options .btn{flex:1;min-width:145px;margin-top:0}
+.roleplay-panel{margin-bottom:15px}
+.roleplay-panel p{font-size:13px;line-height:1.5;color:#615b66;margin:0}
+.roleplay-panel .minor{margin-top:12px}
 .detail-hero .eyebrow,.timer-top .eyebrow{color:#e7d9f0}
 .detail-hero p,.timer-top .phase-name{color:#f0eaf5}
 .detail-layout.viva-layout{grid-template-columns:minmax(0,2fr) minmax(240px,.65fr)}
