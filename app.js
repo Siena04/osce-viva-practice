@@ -13,7 +13,10 @@ const briefHtml = c => {
   const briefing = `<div class="brief-list">${c.brief.map(p => `<p>${esc(p)}</p>`).join('')}</div>`;
   if (!d) return briefing;
   const rows = (items, headings) => `<div class="table-scroll"><table class="case-table"><thead><tr>${headings.map(h => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${items.map(row => `<tr>${row.map(cell => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-  return `${briefing}<div class="case-data"><p class="case-allergies"><strong>Allergies:</strong> ${esc(d.allergies)}</p><h3>Current medicines and reported products</h3>${rows(d.medications,['Medicine','Dose / use','Indication'])}<h3>Results and observations</h3>${rows(d.results,['Measure','Result','When'])}</div>`;
+  const medicines = d.medications?.length ? `<h3>Current medicines and reported products</h3>${rows(d.medications,['Medicine','Dose / use','Indication'])}` : '';
+  const results = d.results?.filter(row => !row.some(cell => String(cell).toLowerCase().includes('not supplied'))) || [];
+  const observations = results.length ? `<h3>Results and observations</h3>${rows(results,['Measure','Result','When'])}` : '';
+  return `${briefing}<div class="case-data"><p class="case-allergies"><strong>Allergies:</strong> ${esc(d.allergies)}</p>${medicines}${observations}</div>`;
 };
 const listHtml = values => `<ul class="check-list">${values.map(v => `<li>${esc(v)}</li>`).join('')}</ul>`;
 const promptList = values => values?.length ? values.map(value => `- ${value}`).join('\n') : '- Not supplied';
@@ -21,7 +24,12 @@ const roleplayButtons = () => `<div class="copy-options"><button class="btn btn-
 const roleplayCopyUi = kind => `${roleplayButtons()}<p class="minor" id="copy-status" role="status">Paste into a new Codex, Claude, or other AI chat. The prompt includes ${kind === 'viva' ? 'examiner' : 'actor'} notes, so avoid reading ahead if you want an unspoiled attempt.</p>`;
 function promptChart(c) {
   const d = c.studentData;
-  return d ? `Patient and medical history: ${d.patient || 'Not supplied'}; ${d.history || 'not supplied'}\nAllergies: ${d.allergies || 'not supplied'}\nMedicines:\n${promptList(d.medications?.map(row => row.join(' | ')))}\nResults and observations:\n${promptList(d.results?.map(row => row.join(' | ')))}` : 'No additional chart is supplied. Use the briefing and actor facts below.';
+  if (!d) return 'Use the briefing and actor facts below.';
+  const parts = [`Patient and medical history: ${d.patient}; ${d.history}`, `Allergies: ${d.allergies}`];
+  if (d.medications?.length) parts.push(`Medicines:\n${promptList(d.medications.map(row => row.join(' | ')))}`);
+  const results = d.results?.filter(row => !row.some(cell => String(cell).toLowerCase().includes('not supplied'))) || [];
+  if (results.length) parts.push(`Results and observations:\n${promptList(results.map(row => row.join(' | ')))}`);
+  return parts.join('\n');
 }
 function osceRoleplayPrompt(c) {
   return [
@@ -147,4 +155,4 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(fals
 
 main.addEventListener('click', e => { const b = e.target.closest('[data-action]'); if (!b) return; const a = b.dataset.action; if (a === 'bank-toggle') { state.bankOpen = !state.bankOpen; render(); } else if (a === 'bank-mode') { state.bankMode = b.dataset.value; render(); } else if (a === 'random') randomCase(b.dataset.value); else if (a === 'select') select(b.dataset.id); else if (a === 'home') goHome(); else if (a === 'start') start(); else if (a === 'copy-roleplay') copyRoleplayPrompt(b.dataset.value); else if (a === 'pause') { const r = state.run; if (r.paused) { r.deadline = Date.now()+r.remaining*1000; r.paused = false; } else { r.remaining = Math.max(0,Math.ceil((r.deadline-Date.now())/1000)); r.paused = true; } render(); } else if (a === 'next') next(); else if (a === 'restart') start(); else if (a === 'abort') { state.view='debrief'; render(); } else if (a === 'question') { state.run.questionIndex++; render(); } else if (a === 'mark') { state.completed.add(state.run.id); if (state.run.partner && byId(state.run.id).type === 'osce1') state.completed.add(state.run.partner); localStorage.setItem('osce-viva-completed',JSON.stringify([...state.completed])); render(); } else if (a === 'repeat') { state.selected = state.run.id; state.view='detail'; render(); window.scrollTo(0,0); } });
 setInterval(updateClock,200);
-fetch('cases.json?v=20261102a').then(r => { if (!r.ok) throw Error('case bank unavailable'); return r.json(); }).then(cases => { state.cases = cases; render(); }).catch(() => { main.innerHTML = '<section class="panel"><h1>Case bank unavailable</h1><p>Reload the dashboard or open it through a web server.</p></section>'; });
+fetch('cases.json?v=20261102b').then(r => { if (!r.ok) throw Error('case bank unavailable'); return r.json(); }).then(cases => { state.cases = cases; render(); }).catch(() => { main.innerHTML = '<section class="panel"><h1>Case bank unavailable</h1><p>Reload the dashboard or open it through a web server.</p></section>'; });
